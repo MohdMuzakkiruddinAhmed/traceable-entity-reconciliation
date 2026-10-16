@@ -2,7 +2,7 @@
 
 **Context, Query Correctness, and Scale for Enterprise Knowledge Graphs**
 
-Research software and reproducibility materials for the paper by **Muzakkiruddin Ahmed Mohammed and John R Talburt**, University of Arkansas at Little Rock.
+Research software and reproducibility materials for the paper by **Muzakkiruddin Ahmed Mohammed, Shames AL Mandalawi, Abdelrahman Elfikky, and John R Talburt**, University of Arkansas at Little Rock.
 
 [Read the paper](paper/revision-2026/main.pdf) · [Technical supplement](paper/revision-2026/supplement.pdf) · [Results](docs/RESULTS.md) · [Installation](docs/INSTALLATION.md) · [Datasets](docs/DATASETS.md)
 
@@ -108,7 +108,7 @@ python paper/revision-2026/build.py
 python paper/revision-2026/analysis/verify_manuscript.py
 ```
 
-The supplied paper is 10 pages and the revision supplement is seven pages. `availability.tex` contains the repository-link placeholder. Historical publications remain available for comparison with earlier result runs.
+The supplied paper is 10 pages and the revision supplement is seven pages. `availability.tex` records the public repository URL. Historical publications remain available for comparison with earlier result runs.
 
 ## Verification
 

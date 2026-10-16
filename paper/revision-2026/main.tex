@@ -16,14 +16,17 @@
 \newcommand{\ind}{\mathbf{1}}
 \newcommand{\method}[1]{\textsc{#1}}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
-\hypersetup{pdftitle={Traceable Entity Reconciliation for Enterprise Knowledge Graphs: Context, Query Correctness, and Scale},pdfauthor={Muzakkiruddin Ahmed Mohammed; John R Talburt},pdfsubject={IEEE KG-BigData 2026 workshop research manuscript}}
+\hypersetup{pdftitle={Traceable Entity Reconciliation for Enterprise Knowledge Graphs: Context, Query Correctness, and Scale},pdfauthor={Muzakkiruddin Ahmed Mohammed; Shames AL Mandalawi; Abdelrahman Elfikky; John R Talburt},pdfsubject={IEEE KG-BigData 2026 workshop research manuscript}}
 \graphicspath{{figures/}}
 \begin{document}
 \title{Traceable Entity Reconciliation for\\Enterprise Knowledge Graphs:\\Context, Query Correctness, and Scale}
-\author{\IEEEauthorblockN{Muzakkiruddin Ahmed Mohammed\qquad John R Talburt}
+\author{\IEEEauthorblockN{Muzakkiruddin Ahmed Mohammed, Shames AL Mandalawi,\\
+Abdelrahman Elfikky, and John R Talburt}
 \IEEEauthorblockA{Center for Advanced Research in Entity Resolution and Information Quality (ERIQ)\\
 University of Arkansas at Little Rock\\
 \href{mailto:mmohammed6@ualr.edu}{mmohammed6@ualr.edu}\qquad
+\href{mailto:salmandalaw@ualr.edu}{salmandalaw@ualr.edu}\\
+\href{mailto:aelfikky1@ualr.edu}{aelfikky1@ualr.edu}\qquad
 \href{mailto:Jrtalburt@ualr.edu}{Jrtalburt@ualr.edu}}}
 \maketitle
 
@@ -365,8 +368,11 @@ Recorded amendments include completing interrupted WWI timing with fits preserve
 \section{Conclusion}
 The source-preserving architecture connects typed ingestion, traceable identity decisions, and independently controlled query execution. Exact in-scope source controls and SQL/graph evidence parity separate representation fidelity from identity accuracy. Contextual benefit is task-dependent: paired identity-query F1 improves on WWI, Olist, and BPI and declines on DataCo, while WWI transaction attribution slightly worsens. BPI's gain depends on a coarse baseline, and its absence stress exposes threshold-induced failure despite exact score fallback. Bounded retrieval also loses substantial positives as replicated workloads grow. The implemented architecture and linked controls make these limits explicit. Stronger learned references, development-selected fallback policies, informative support, recall-preserving retrieval, and independent expanded retraining remain future work.
 
-\section*{Acknowledgment and AI Assistance}
-OpenAI Codex (GPT-6) assisted with implementation, experiment orchestration, result checking, manuscript drafting, bibliography organization, and scientific plots in the underlying study. ChatGPT assisted with the supplied draft's organization, language, LaTeX, and vector figures. Codex assisted with this revision's paired query execution, split audit, result integration, and manuscript checks. Original E1--E5 results are retained; additional analyses use frozen models and policies without refitting. The authors remain responsible for the methods, results, and final manuscript.
+\section*{AI Disclosure}
+OpenAI GPT-6 Astra was used to enhance vocabulary, grammar, language clarity, word choice, and visuals during the preparation of this research paper. OpenAI Codex and ChatGPT also assisted with implementation, experiment orchestration, manuscript drafting and organization, bibliography management, and LaTeX formatting. The authors directed the research and remain responsible for the methods, analysis, interpretation, substantive content, and results.
+
+\section*{Acknowledgment}
+This research was partially supported by the National Science Foundation under EPSCoR Award No. OIA-1946391 and the PiLog Group. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or the PiLog Group.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
