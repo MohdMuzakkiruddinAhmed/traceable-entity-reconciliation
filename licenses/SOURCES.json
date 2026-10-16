@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-10-12",
+  "license_urls": {
+    "MICROSOFT-MIT.txt": "https://raw.githubusercontent.com/microsoft/sql-server-samples/master/license.txt",
+    "WDC-CODE-BSD-3-Clause.txt": "https://raw.githubusercontent.com/wbsg-uni-mannheim/wdcproducts/main/LICENSE",
+    "Apache-2.0.txt": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "CC-BY-4.0.txt": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "CC-BY-NC-SA-4.0.txt": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt"
+  }
+}

@@ -1,0 +1,4 @@
+dataset,target,actual,matching_records,pairs,recall,seconds,rss_gib
+DataCo,1000,1011,112,1312,0.946,0.71,0.66
+DataCo,10000,10001,1150,17074,0.82,6.58,0.7
+DataCo,100000,100012,11470,179974,0.594,69.57,1.49

@@ -1,0 +1,38 @@
+{
+  "frozen_at_utc": "2026-10-12T00:55:02.068983+00:00",
+  "model_sha256": "0cbeaf31e290c51bfae6788aa83ada17825863c296e9878a37c74ae0195ac14e",
+  "thresholds": {
+    "B0": 1.0,
+    "B1": 0.85,
+    "B2": 0.9523910157149256,
+    "B4": 0.9371813877977792,
+    "B5": 0.9523910157149256
+  },
+  "attribute_features": [
+    "name_ratio",
+    "token_sort",
+    "token_jaccard",
+    "char_tfidf",
+    "category_agreement",
+    "brand_agreement",
+    "description_ratio",
+    "price_similarity",
+    "currency_agreement",
+    "name_missing",
+    "category_missing",
+    "brand_missing",
+    "price_missing"
+  ],
+  "context_features": [
+    "anchor_jaccard",
+    "anchor_count",
+    "degree_similarity",
+    "category_cosine",
+    "support_fraction",
+    "has_supported_context"
+  ],
+  "validation_f1": {
+    "B2": 0.86,
+    "context": 0.86
+  }
+}

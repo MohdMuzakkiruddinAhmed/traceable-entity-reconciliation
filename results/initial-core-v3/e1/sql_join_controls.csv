@@ -1,0 +1,9 @@
+source_table,source_column,target_table,relation,valid_source_join_rows,graph_edge_count,equal
+Purchasing.PurchaseOrders,SupplierID,Purchasing.Suppliers,ORDERED_FROM,2074,2074,True
+Purchasing.PurchaseOrderLines,PurchaseOrderID,Purchasing.PurchaseOrders,PART_OF_PO,8367,8367,True
+Purchasing.PurchaseOrderLines,StockItemID,Warehouse.StockItems,FOR_STOCK_ITEM,8367,8367,True
+Warehouse.StockItems,SupplierID,Purchasing.Suppliers,FROM_SUPPLIER,227,227,True
+Warehouse.StockItemTransactions,StockItemID,Warehouse.StockItems,MOVES_STOCK_ITEM,236667,236667,True
+Warehouse.StockItemTransactions,PurchaseOrderID,Purchasing.PurchaseOrders,FOR_PO,8358,8358,True
+Warehouse.StockItemTransactions,SupplierID,Purchasing.Suppliers,RELATES_TO_SUPPLIER,8358,8358,True
+Purchasing.SupplierTransactions,SupplierID,Purchasing.Suppliers,RELATES_TO_SUPPLIER,2438,2438,True

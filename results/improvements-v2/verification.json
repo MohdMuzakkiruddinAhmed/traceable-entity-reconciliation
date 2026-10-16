@@ -1,0 +1,2272 @@
+{
+  "status": "passed",
+  "run_id": "improvements-v2",
+  "verification_kind": "independent_sklearn_metric_recomputation_and_frozen_artifact_replay",
+  "not_a_fresh_retraining_claim": true,
+  "tests": 25,
+  "checks_passed": 447,
+  "checks": [
+    {
+      "check": "completed_exploratory_run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "extension_results",
+      "passed": true,
+      "detail": {
+        "files": 97,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "extension_code",
+      "passed": true,
+      "detail": {
+        "files": 8,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "extension_configuration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "archived_code_snapshot",
+      "passed": true,
+      "detail": {
+        "files": 25,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "current_code_matches_snapshot",
+      "passed": true,
+      "detail": {
+        "files": 25,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "preserved_primary_code",
+      "passed": true,
+      "detail": {
+        "files": 23,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "preserved_primary_results",
+      "passed": true,
+      "detail": {
+        "files": 55,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "preserved_original_paper",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "separate_latest_pointers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "locked_environment_tests",
+      "passed": true,
+      "detail": {
+        "tests": 25,
+        "junit": "results/improvements-locked-tests.xml"
+      }
+    },
+    {
+      "check": "WWI_17_frozen_model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_common_candidate_order_and_truth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_OriginalB2_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_OriginalB2_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_OriginalB5_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_OriginalB5_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_AttrPlus_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_AttrPlus_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_FlatWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_FlatWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphUngated_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphUngated_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphUnweighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphUnweighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphNoSupport_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphNoSupport_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphNoContext_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_GraphNoContext_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_representation_and_ablation_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_frozen_model_replay",
+      "passed": true,
+      "detail": {
+        "max_difference": 0.0
+      }
+    },
+    {
+      "check": "WWI_17_development_group_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_role_denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_physical_view_preserves_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_six_query_answer_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_accepted_identity_audit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_robustness_completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_clean_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_no_anchors_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_attribute_noise_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_10_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_optional_missingness_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_edge_removal_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_misleading_edge_rewire_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_provenance_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_17_v1_v2_accuracy_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_frozen_model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_common_candidate_order_and_truth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_OriginalB2_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_OriginalB2_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_OriginalB5_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_OriginalB5_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_AttrPlus_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_AttrPlus_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_FlatWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_FlatWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphUngated_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphUngated_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphUnweighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphUnweighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphNoSupport_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphNoSupport_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphNoContext_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_GraphNoContext_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_representation_and_ablation_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_frozen_model_replay",
+      "passed": true,
+      "detail": {
+        "max_difference": 0.0
+      }
+    },
+    {
+      "check": "WWI_29_development_group_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_role_denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_physical_view_preserves_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_six_query_answer_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_accepted_identity_audit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_robustness_completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_clean_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_no_anchors_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_attribute_noise_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_10_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_optional_missingness_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_edge_removal_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_misleading_edge_rewire_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_provenance_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_29_v1_v2_accuracy_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_frozen_model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_common_candidate_order_and_truth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_OriginalB2_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_OriginalB2_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_OriginalB5_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_OriginalB5_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_AttrPlus_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_AttrPlus_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_FlatWeighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_FlatWeighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphUngated_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphUngated_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphUnweighted_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphUnweighted_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphNoSupport_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphNoSupport_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphNoContext_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_GraphNoContext_ambiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_representation_and_ablation_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_frozen_model_replay",
+      "passed": true,
+      "detail": {
+        "max_difference": 0.0
+      }
+    },
+    {
+      "check": "WWI_43_development_group_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_role_denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_physical_view_preserves_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_six_query_answer_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_accepted_identity_audit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_robustness_completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_clean_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_no_anchors_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_attribute_noise_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_10_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_optional_missingness_50_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_edge_removal_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_15_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_misleading_edge_rewire_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_OriginalB2_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_OriginalB5_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_AttrPlus_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_GraphWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_FlatWeighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_GraphUngated_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_GraphUnweighted_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_GraphNoSupport_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_provenance_missingness_30_GraphNoContext_stress_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WWI_43_v1_v2_accuracy_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WDC_frozen_model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WDC_official_test_order_labels_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WDC_OriginalB2_metrics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WDC_AttrPlus_metrics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "WDC_development_denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_trials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_0_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_0_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_1_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_1_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_2_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_1_2_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_0_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_0_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_1_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_1_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_2_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_3_2_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_0_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_0_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_1_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_1_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_2_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_blocking_10_2_bounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "E5_query_trials_and_same_identity_controls",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

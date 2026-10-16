@@ -1,0 +1,9 @@
+{
+  "accepted_links": 45,
+  "false_merges": 0,
+  "canonical_nodes": 45,
+  "refers_to_edges": 90,
+  "raw_nodes_preserved": true,
+  "raw_edges_preserved": true,
+  "provenance_complete": true
+}

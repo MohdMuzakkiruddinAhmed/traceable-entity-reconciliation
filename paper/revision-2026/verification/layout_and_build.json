@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "main_pages_reviewed": 10,
+  "supplement_pages_reviewed": 7,
+  "review_method": "Rendered all pages at 115 DPI; contact-sheet review plus enlarged inspection of the paired query table, availability statement, references, WDC audit and supplement command.",
+  "clipping_overlap_missing_glyphs_observed": false,
+  "all_fonts_embedded": true,
+  "font_resource_counts": {
+    "main": 31,
+    "supplement": 9
+  },
+  "portable_build": "passed; identical page counts and complete page text",
+  "main_sha256": "45bfe8d4f40898cc6b0c731408e175ff33bdcf2f0510e99794559f97385de14a",
+  "supplement_sha256": "3a53f4c59cd946b90948f011af2c8ad453614fd8eca0007eca063f72762da680"
+}

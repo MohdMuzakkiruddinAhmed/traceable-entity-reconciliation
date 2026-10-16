@@ -1,0 +1,16 @@
+{
+  "dataset": "WWI",
+  "selected_groups": 240,
+  "eligible_source_groups": 240,
+  "group_counts": {
+    "train": 143,
+    "validation": 48,
+    "test": 49
+  },
+  "source_run": "initial-core-v3",
+  "original_splits_aliases_and_native_transactions_unchanged": true,
+  "quantity_conversion": "source QuantityPerOuter converts purchased stock-item outers to stock units; supplier-level outers remain distinct",
+  "quantity_per_outer_baseline": "exposed as additional attribute compatibility features for every learned attribute/context comparator",
+  "context_gate": "original independently inferred master anchors; category summaries from candidate endpoints do not establish independent anchor support",
+  "lineage": "native keys, transactions and relationships preserved; packaging attribute exposed on source master views; separate transaction projections added"
+}

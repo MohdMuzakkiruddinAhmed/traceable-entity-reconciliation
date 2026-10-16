@@ -1,0 +1,38 @@
+{
+  "Purchasing.Suppliers": {
+    "rows": 13,
+    "sha256": "77a07fd898d8cb90a03e99fa667455d95c3a06c93f61da120d6ba0a563e6c27e",
+    "source_count_verified": true,
+    "extract_seconds": 0.15879470005165786
+  },
+  "Purchasing.PurchaseOrders": {
+    "rows": 2074,
+    "sha256": "b80aa2e672e4cc1729794b68ff2d8e6d4ed05c97cd0191cb4a2e9ce0873fb06e",
+    "source_count_verified": true,
+    "extract_seconds": 0.1662658000132069
+  },
+  "Purchasing.PurchaseOrderLines": {
+    "rows": 8367,
+    "sha256": "7c7a2e27e2c4ddb586e034be705f30ddb4ce5a1f767b60bc90d9525920054bd9",
+    "source_count_verified": true,
+    "extract_seconds": 0.19831739994697273
+  },
+  "Warehouse.StockItems": {
+    "rows": 227,
+    "sha256": "0c76e2145b89a2094708a8ed3437d696222a290421bda3be250a208cbc7d6d5f",
+    "source_count_verified": true,
+    "extract_seconds": 0.16188979998696595
+  },
+  "Warehouse.StockItemTransactions": {
+    "rows": 236667,
+    "sha256": "f1645acdc3b4441e551464e7796f962c512ecb7d2b2565229da0df452051f10e",
+    "source_count_verified": true,
+    "extract_seconds": 0.6257006999803707
+  },
+  "Purchasing.SupplierTransactions": {
+    "rows": 2438,
+    "sha256": "6242607fca8859753c542e9f6bf1afd20fdfa2fdd98e548bd84a3d3d1f3d12da",
+    "source_count_verified": true,
+    "extract_seconds": 0.19766890001483262
+  }
+}

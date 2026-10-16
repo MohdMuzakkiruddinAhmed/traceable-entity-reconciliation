@@ -1,0 +1,297 @@
+{
+  "frozen_at_utc": "2026-10-12T02:49:00.117803+00:00",
+  "model_sha256": "ca50c4d81cc558bb34376eb6bb1908291a570a34d2191d6caa2092a148be28e4",
+  "accepts": {
+    "B0Exact": 1.0,
+    "B1Fuzzy": 0.9333333333333332,
+    "B2Attributes": 0.8973485382977836,
+    "B3Embedding": 0.27046639742680645,
+    "B2EmbeddingAugmented": 0.9022619588616625,
+    "B5Graph": 0.8973485382977836,
+    "NoGate": 0.20483485151114705,
+    "NoSupport": 0.8973485382977836,
+    "NoContext": 0.8973485382977836,
+    "NoTransactions": 0.8973485382977836,
+    "OneHop": 0.8973485382977836,
+    "B4Flat": 0.8973485382977836,
+    "UnitWeights": 0.8973485382977836
+  },
+  "choices": {
+    "attribute": {
+      "chosen": "logistic_C_10.0",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9419336037664934
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9535222322846514
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.19265814751902105
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.726402840599899
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.46349777254294544
+        }
+      ]
+    },
+    "embedding": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.7692307692307693,
+          "selection_threshold": 0.9808018176778506
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.7692307692307693,
+          "selection_threshold": 0.9817629520645103
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 0.7692307692307693,
+          "selection_threshold": 0.9818605764191198
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 0.7692307692307693,
+          "selection_threshold": 0.8009033412228652
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.6666666666666667,
+          "selection_threshold": 1.0
+        }
+      ]
+    },
+    "augmented": {
+      "chosen": "logistic_C_10.0",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.942671156306777
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9474775894132703
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.20433536518689188
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6777088236353463
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.38665893572948196
+        }
+      ]
+    },
+    "weighted": {
+      "chosen": "forest_depth_8",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9241367218104364
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.8400816807795016
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.5756534823975252
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6780676884716178
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.43342362366445775
+        }
+      ]
+    },
+    "no_support": {
+      "chosen": "forest_depth_8",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9377326432359835
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9320297753622228
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.09895491857338315
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7069679322291272
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.47968200929929256
+        }
+      ]
+    },
+    "no_transactions": {
+      "chosen": "logistic_C_1.0",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9397510720666573
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.3292465896343648
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.02485905322599916
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7109485291575381
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.5231712970037663
+        }
+      ]
+    },
+    "one_hop": {
+      "chosen": "logistic_C_10.0",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9381949650144739
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.9319984873063188
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.030613302645548804
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7381950701712464
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 0.9677419354838709,
+          "selection_threshold": 0.472340436733489
+        }
+      ]
+    }
+  },
+  "role_counts": {
+    "selection": {
+      "groups": 16,
+      "pairs": 165,
+      "positives": 16
+    },
+    "calibration": {
+      "groups": 16,
+      "pairs": 205,
+      "positives": 16
+    },
+    "policy": {
+      "groups": 16,
+      "pairs": 99,
+      "positives": 16
+    }
+  },
+  "cross_role_pairs_omitted": 870,
+  "development_prior": 0.035847647498132934,
+  "group_disjoint_selection_calibration_policy": true,
+  "class_prior_weights": "restore full-development class prevalence using validation only; not a test-prior correction",
+  "common_candidate_k": 32,
+  "retrieval_trials": [
+    {
+      "k": 8,
+      "candidate_count": 342,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 16,
+      "candidate_count": 632,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 32,
+      "candidate_count": 1148,
+      "blocking_recall": 1.0
+    }
+  ],
+  "chosen_retrieval_k": 8,
+  "development_recall_target_met": true,
+  "classification": "exploratory_scope_expansion_requested_by_user",
+  "context_feature_names": [
+    "weighted_anchor_jaccard",
+    "weighted_support",
+    "degree_similarity",
+    "weighted_category_cosine",
+    "supported_fraction",
+    "category_cosine",
+    "activity_cosine",
+    "degree_similarity",
+    "distinct_shared_categories",
+    "support_fraction",
+    "date_mean_similarity",
+    "date_span_similarity",
+    "quantity_mean_similarity",
+    "quantity_sd_similarity",
+    "amount_mean_similarity",
+    "amount_sd_similarity",
+    "date_available",
+    "quantity_unit_compatible",
+    "amount_unit_compatible",
+    "contradictory_category",
+    "native_independent_anchor_gate"
+  ],
+  "context_semantics": "typed local transaction/category summaries; category support, not gold or copied master/entity identifiers"
+}

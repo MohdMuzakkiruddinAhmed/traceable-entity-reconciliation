@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "completed": [
+    "E1",
+    "E2_WWI",
+    "E3",
+    "E4"
+  ],
+  "error": "Unexpected official offer overlap: {'train_validation': 0, 'train_test': 110, 'validation_test': 106}",
+  "code_sha256": {
+    "src\\kgerp\\__init__.py": "6242cadeb0a47113cc37f8212dc7010ae113ddbe1967289df4630ab942f76446",
+    "src\\kgerp\\blocking.py": "0a522b1bb2f20791abc987bd8ddbcf6fee292514ae22ae9b8a0ef8ad7aea2db2",
+    "src\\kgerp\\cli.py": "8f83b0982ea2b635af5946b50d00cb9f196cae3de0c1e8da39e86d5f345eb999",
+    "src\\kgerp\\evaluations.py": "3d7591c58fc2554db6c3609fd42fe21f956c4eb2b22155922d1edc3157166ea6",
+    "src\\kgerp\\features_attribute.py": "5377a091806f239d6c07f2ec10f124bdf58ef452ca181e6a8966b6e27e23febd",
+    "src\\kgerp\\features_context.py": "1787617a161667a71f907728fa04a5b03d655a82eb7cd10ee672701be6081724",
+    "src\\kgerp\\graph_loader.py": "f62cfa544912a33e9005aeb248cdc64557afe10b9daa58c5bc141d277f74c90b",
+    "src\\kgerp\\identity.py": "d4ee1bf709d4851511b5c245384cb0ca504e40222c373f3e8a073fae34f00c05",
+    "src\\kgerp\\ingest.py": "924542553ae03ee6f32fd2907a4599c3f44554bd0c9918253242f616486b2df5",
+    "src\\kgerp\\io.py": "f4d6cf1a27317447393af78dc11a83849518a121dbde1575244fc2b2fbd9f231",
+    "src\\kgerp\\matchers.py": "18fa9cbd932b42691a3509e3cfc94d4f5bd3c0264afa27198d7ee9c27abd8005",
+    "src\\kgerp\\metrics.py": "bb96bd1eae6810788172d07390259548e3460c9f398f5d8d39334a2452c8dc84",
+    "src\\kgerp\\oracle.py": "af10fa37c1608fc003052e64ff932d45c5efb1700232021baa658c99533c5f26",
+    "src\\kgerp\\queries.py": "109fe2538580eff3ebc677c379cf3a6f6c8d846179a7a0bf5b099fd684904c39",
+    "src\\kgerp\\schema.py": "bc9597f32b9a992f49a47b7f91f760c6a1bb4b7953074c19ec306523b5abbc84",
+    "src\\kgerp\\silo_generator.py": "c0061ffa481b66101b047112931b36017f218ca5ea66b1f7b4fdf7e2920cec0d",
+    "src\\kgerp\\wdc.py": "375566bc770b259ff9a65d93f457582b4cfeb40bcfb7a7a76983181b647fdcfc"
+  },
+  "config_sha256": "c724316e96edc7c18947e2ba5bdee290fc0dbda098b93f18c3e27b0a2cf1f4b5"
+}

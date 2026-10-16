@@ -1,0 +1,7 @@
+dataset,relation,expected_edges,missing_edges,extra_edges,recall
+DataCo,ITEM_ORDER,180519,0,0,1.0
+DataCo,ITEM_PRODUCT,180519,0,0,1.0
+DataCo,ITEM_CUSTOMER,180519,0,0,1.0
+DataCo,ORDER_CUSTOMER,65752,0,0,1.0
+DataCo,PRODUCT_CATEGORY,118,0,0,1.0
+DataCo,CATEGORY_DEPARTMENT,51,0,0,1.0

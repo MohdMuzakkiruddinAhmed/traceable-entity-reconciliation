@@ -1,0 +1,33 @@
+version: 3
+classification: exploratory_post_test_extension
+source_run: initial-core-v3
+scope: [WideWorldImporters_OLTP, WDC_Products_pairwise]
+seeds: [17, 29, 43]
+development_partition_seed: 20261011
+development_roles: [selection, calibration, policy]
+models:
+  logistic_C: [0.1, 1.0, 10.0]
+  forest_depths: [8, 16]
+  forest_trees: 160
+  min_anchors: 2
+  min_weighted_support: 1.0
+  reject_probability: 0.10
+bootstrap_replicates: 1000
+blocking:
+  token_prefix: 4
+  include_category: true
+  k_grid: [8, 16, 32]
+  target_development_recall: 0.95
+  postings_per_k: 8
+  max_keys: 12
+  max_candidates: 2000000
+robustness:
+  attribute_noise: [0.30, 0.50]
+  optional_missingness: [0.10, 0.30, 0.50]
+  edge_removal: [0.15, 0.30]
+  misleading_edge_rewire: [0.15, 0.30]
+  provenance_missingness: [0.30]
+scale:
+  replica_factors: [1, 3, 10]
+  repetitions: 3
+  warmed_query_repetitions: 5

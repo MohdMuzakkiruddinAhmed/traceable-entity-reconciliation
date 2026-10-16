@@ -1,0 +1,9 @@
+{
+  "workload": "official offer pool then namespace-disjoint replicas, deterministic source-side partition by offer UID hash; no enterprise graph fabricated",
+  "frozen_model": "50cc/small/seed43; no scale-specific refitting",
+  "matching_truth": "original product-cluster labels, evaluator-only; all cross-source positive pairs including cross-replica aliases",
+  "candidate_cap": "32 per left source record; output bound and recall trade-off explicit",
+  "memory": "50 ms sampled process peak RSS",
+  "E3_ERP_queries": "not applicable to this offer-only benchmark",
+  "limits": "microbenchmark for matching throughput; not additional official benchmark accuracy cells or independent population growth"
+}

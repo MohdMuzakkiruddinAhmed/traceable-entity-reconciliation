@@ -1,0 +1,1394 @@
+[
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "PurchaseOrderLineID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "PurchaseOrderID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "OrderedOuters",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "Description",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "ReceivedOuters",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "PackageTypeID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "ExpectedUnitPricePerOuter",
+    "data_type": "decimal",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "LastReceiptDate",
+    "data_type": "date",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "IsOrderLineFinalized",
+    "data_type": "bit",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrderLines",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "PurchaseOrderID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "OrderDate",
+    "data_type": "date",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "DeliveryMethodID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "ContactPersonID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "ExpectedDeliveryDate",
+    "data_type": "date",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "SupplierReference",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "IsOrderFinalized",
+    "data_type": "bit",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "Comments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "InternalComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.PurchaseOrders",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories",
+    "column_name": "SupplierCategoryID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories",
+    "column_name": "SupplierCategoryName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories_Archive",
+    "column_name": "SupplierCategoryID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories_Archive",
+    "column_name": "SupplierCategoryName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierCategories_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "SupplierName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "SupplierCategoryID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PrimaryContactPersonID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "AlternateContactPersonID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryMethodID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryCityID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PostalCityID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "SupplierReference",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "BankAccountName",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "BankAccountBranch",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "BankAccountCode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "BankAccountNumber",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "BankInternationalCode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PaymentDays",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "InternalComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PhoneNumber",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "FaxNumber",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "WebsiteURL",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryAddressLine1",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryAddressLine2",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryPostalCode",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "DeliveryLocation",
+    "data_type": "geography",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PostalAddressLine1",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PostalAddressLine2",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "PostalPostalCode",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "SupplierName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "SupplierCategoryID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PrimaryContactPersonID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "AlternateContactPersonID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryMethodID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryCityID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PostalCityID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "SupplierReference",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "BankAccountName",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "BankAccountBranch",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "BankAccountCode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "BankAccountNumber",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "BankInternationalCode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PaymentDays",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "InternalComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PhoneNumber",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "FaxNumber",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "WebsiteURL",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryAddressLine1",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryAddressLine2",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryPostalCode",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "DeliveryLocation",
+    "data_type": "geography",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PostalAddressLine1",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PostalAddressLine2",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "PostalPostalCode",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.Suppliers_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "SupplierTransactionID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "TransactionTypeID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "PurchaseOrderID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "PaymentMethodID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "SupplierInvoiceNumber",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "TransactionDate",
+    "data_type": "date",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "AmountExcludingTax",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "TaxAmount",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "TransactionAmount",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "OutstandingBalance",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "FinalizationDate",
+    "data_type": "date",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "IsFinalized",
+    "data_type": "bit",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Purchasing.SupplierTransactions",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "ColdRoomTemperatureID",
+    "data_type": "bigint",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "ColdRoomSensorNumber",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "RecordedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "Temperature",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "ColdRoomTemperatureID",
+    "data_type": "bigint",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "ColdRoomSensorNumber",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "RecordedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "Temperature",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.ColdRoomTemperatures_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors",
+    "column_name": "ColorID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors",
+    "column_name": "ColorName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors_Archive",
+    "column_name": "ColorID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors_Archive",
+    "column_name": "ColorName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.Colors_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes",
+    "column_name": "PackageTypeID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes",
+    "column_name": "PackageTypeName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes_Archive",
+    "column_name": "PackageTypeID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes_Archive",
+    "column_name": "PackageTypeName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.PackageTypes_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups",
+    "column_name": "StockGroupID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups",
+    "column_name": "StockGroupName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups_Archive",
+    "column_name": "StockGroupID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups_Archive",
+    "column_name": "StockGroupName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockGroups_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "QuantityOnHand",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "BinLocation",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "LastStocktakeQuantity",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "LastCostPrice",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "ReorderLevel",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "TargetStockLevel",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemHoldings",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "StockItemName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "ColorID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "UnitPackageID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "OuterPackageID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "Brand",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "Size",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "LeadTimeDays",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "QuantityPerOuter",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "IsChillerStock",
+    "data_type": "bit",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "Barcode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "TaxRate",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "UnitPrice",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "RecommendedRetailPrice",
+    "data_type": "decimal",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "TypicalWeightPerUnit",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "MarketingComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "InternalComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "Photo",
+    "data_type": "varbinary",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "CustomFields",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "Tags",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "SearchDetails",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "StockItemName",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "ColorID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "UnitPackageID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "OuterPackageID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "Brand",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "Size",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "LeadTimeDays",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "QuantityPerOuter",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "IsChillerStock",
+    "data_type": "bit",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "Barcode",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "TaxRate",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "UnitPrice",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "RecommendedRetailPrice",
+    "data_type": "decimal",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "TypicalWeightPerUnit",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "MarketingComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "InternalComments",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "Photo",
+    "data_type": "varbinary",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "CustomFields",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "Tags",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "SearchDetails",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "ValidFrom",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItems_Archive",
+    "column_name": "ValidTo",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemStockGroups",
+    "column_name": "StockItemStockGroupID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemStockGroups",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemStockGroups",
+    "column_name": "StockGroupID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemStockGroups",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemStockGroups",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "StockItemTransactionID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "StockItemID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "TransactionTypeID",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "CustomerID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "InvoiceID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "SupplierID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "PurchaseOrderID",
+    "data_type": "int",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "TransactionOccurredWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "Quantity",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "LastEditedBy",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.StockItemTransactions",
+    "column_name": "LastEditedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "VehicleTemperatureID",
+    "data_type": "bigint",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "VehicleRegistration",
+    "data_type": "nvarchar",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "ChillerSensorNumber",
+    "data_type": "int",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "RecordedWhen",
+    "data_type": "datetime2",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "Temperature",
+    "data_type": "decimal",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "IsCompressed",
+    "data_type": "bit",
+    "is_nullable": false
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "FullSensorData",
+    "data_type": "nvarchar",
+    "is_nullable": true
+  },
+  {
+    "table_name": "Warehouse.VehicleTemperatures",
+    "column_name": "CompressedSensorData",
+    "data_type": "varbinary",
+    "is_nullable": true
+  }
+]

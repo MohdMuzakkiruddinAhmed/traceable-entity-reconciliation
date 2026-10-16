@@ -1,0 +1,10 @@
+# Preserve recorded bytes for cross-platform scientific SHA-256 manifests.
+* -text
+*.pdf binary
+*.png binary
+*.joblib binary
+*.pkl binary
+*.gz binary
+*.zip binary
+results/** linguist-generated=true
+paper/**/data/** linguist-generated=true

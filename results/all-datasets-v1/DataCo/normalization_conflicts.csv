@@ -1,0 +1,6 @@
+table,identity_key,groups_with_attribute_conflicts
+customers,Customer Id,0
+orders,Order Id,0
+products,Product Card Id,0
+categories,Category Id,0
+departments,Department Id,0

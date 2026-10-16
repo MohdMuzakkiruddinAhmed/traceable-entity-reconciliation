@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-10-12T00:53:22.712181+00:00",
+  "checks": [
+    {
+      "check": "WWI seed 17 predictions vs independent sklearn metrics",
+      "status": "passed"
+    },
+    {
+      "check": "WWI seed 29 predictions vs independent sklearn metrics",
+      "status": "passed"
+    },
+    {
+      "check": "WWI seed 43 predictions vs independent sklearn metrics",
+      "status": "passed"
+    },
+    {
+      "check": "WDC predictions vs independent sklearn F1",
+      "status": "passed"
+    },
+    {
+      "check": "Six SQL/KG query templates across all seeds",
+      "status": "passed"
+    },
+    {
+      "check": "No-anchor scenarios use zero supported context",
+      "status": "passed"
+    },
+    {
+      "check": "Original result and code checksums",
+      "status": "passed"
+    }
+  ],
+  "reporter_sha256": "2d7b7112e80d75ae9d7d2184f00b487f3e444ffc417705973c01e55949bbf7d2",
+  "input_manifest_sha256": {
+    "downloads.json": "1c8f8781116b39766ec4a6ecd94db57f184024d748af25d04cb59bfa503cf71f",
+    "foreign_keys.json": "033b613b9dc77a5729bc80a9cecddfef969e883fc638f9126f448510592b9095",
+    "null_profile.csv": "de99a0d06b8bd523673a46bfb0f6eac74ea8d026a8f2592e0e6f37a64009c52c",
+    "profile.csv": "5780958c731fc46d2469abe18ecd28a4199d5c469afceaa87c1e356314063383",
+    "schema_inventory.json": "3f6ab15df22a1abdb522fca80954a0d80f627dbc81db54deeca645eda6640572",
+    "silos_17.json": "998eeb2900d7ba0cea4b7a14c873b32e488ee71d2f20afcb06855be265c0ce6e",
+    "silos_29.json": "ae5fce580d952746202eed24d84a5d5cdae56847884b5214ade28db330e14f7a",
+    "silos_43.json": "d40eea1925426efd549997ad46344a82e332503603c32fa205b48a27cd5875da",
+    "sql_reference_counts.json": "23cc749edfee17a583d923983bb222fe57c971c58bb666f5a106fdded6709343",
+    "sql_server.json": "a0edb5ff9216e1173ea584589c429f85056b480504b9162b15760e5b04094bfa",
+    "wdc_splits.json": "31c652fd05359bbd5f34775098b849421de0d4e84f99dd8595f96bb5528563f9",
+    "wwi_snapshot.json": "379d93884a1e0488edbb10bd9fc59cdb658f250c807f91e4e3800c47bb7b4ae3"
+  }
+}

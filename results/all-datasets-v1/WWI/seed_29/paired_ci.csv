@@ -1,0 +1,5 @@
+contrast,stratum,ci_low,ci_high
+B5Graph_minus_B2Attributes,ambiguous,0.0,0.0
+B2EmbeddingAugmented_minus_B2Attributes,ambiguous,-0.11406582091250428,0.08667922447571404
+OneHop_minus_B2Attributes,ambiguous,0.0,0.0
+NoTransactions_minus_B2Attributes,ambiguous,-0.1260454658681641,0.0

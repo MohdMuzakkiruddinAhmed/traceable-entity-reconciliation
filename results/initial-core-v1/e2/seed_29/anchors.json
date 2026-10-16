@@ -1,0 +1,97 @@
+[
+  {
+    "left_source_uid": "A:StockItem:07ea931ffdc822a1e3ceb7c9ee0d6e79",
+    "right_source_uid": "B:StockItem:01c39ee5e0d41a8e6eac340755d1341b",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:21c1623558aed4a089985152b253391a",
+    "right_source_uid": "B:StockItem:d9dc58f6490684adb8c9f409d643e3bc",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:2fb1a5a3758253cc8da932aa91307ab9",
+    "right_source_uid": "B:StockItem:19184fc595d84e932da27c06d1e6aa49",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:30bcff9abebc6220ec3475d29b31a6e6",
+    "right_source_uid": "B:StockItem:dcecc1dad4c2cf57080dfde295d5d376",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:314e25a8c69baa990766b61ffdfd34d8",
+    "right_source_uid": "B:StockItem:74835471f8d0107aad2684c423cfe1c0",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:32ca439e532ce329160c8792ffa08087",
+    "right_source_uid": "B:StockItem:53459fdce9d53a5ce52dac50f062abe7",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:3e79de837306b50fd30cf988eb82f3d9",
+    "right_source_uid": "B:StockItem:17eaed944e118be4532a2395a53fc033",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:5b8dae570ffafec2bea9fb0d153642d5",
+    "right_source_uid": "B:StockItem:79bae88a85ca005e3e9daa12170f44a0",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:6099cdb46e3854cd9ced49cebe53c99b",
+    "right_source_uid": "B:StockItem:50c7118eacf3888d27c77c35b5336f04",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:767fc69420c181f2fbe90442749103e2",
+    "right_source_uid": "B:StockItem:28803b8cd722626d155bb57d14409ea1",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:7f4af7d76c47879a8b2a8cd531cc1235",
+    "right_source_uid": "B:StockItem:664eab8e896af73cb0ebeaaf06652adf",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:7ff7c78041d3a4a331545cb0bb1142f9",
+    "right_source_uid": "B:StockItem:fc14278df3c4540ce6317f7255ab933e",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:99cf59409be3af5ca21f8a5ec96c7470",
+    "right_source_uid": "B:StockItem:9f4195b93fa0ed2830cd72e07d6dca2c",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:b269d68a0449148e3f7c04774faa026f",
+    "right_source_uid": "B:StockItem:ccdbfbae8f85b2c4a8bb4c12c9cfd5b5",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:cc638a35743f9a8c4b5fb468e488f4ae",
+    "right_source_uid": "B:StockItem:60fc1f0ecc2811a42b64c8ea17fe9722",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:dcaf3768266b00b2b099d2b139639153",
+    "right_source_uid": "B:StockItem:0b1b2ef33985763b501a2e6b4bfd702e",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:e2da45576af7e383525090b450d3f084",
+    "right_source_uid": "B:StockItem:221a7d11c663f57459be766fdaeaa5d6",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:StockItem:f758a0c1f8bdf883f0cf6f52d527fc56",
+    "right_source_uid": "B:StockItem:83da39adb61bd3a7b3a774afd85b1686",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  },
+  {
+    "left_source_uid": "A:Supplier:0223f437c3cef81083cb003509dee492",
+    "right_source_uid": "B:Supplier:dbcf0e2c83d8543a3fe1d5e76a2e0af7",
+    "rule": "unique_normalized_exact_name_same_type_compatible_category"
+  }
+]

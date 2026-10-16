@@ -1,0 +1,13 @@
+scenario,attributes_changed,optional_fields_removed,edges_removed,edges_rewired,lineage_removed
+clean,0,0,0,0,0
+no_anchors,0,0,0,0,0
+attribute_noise_30,181,0,0,0,0
+attribute_noise_50,312,0,0,0,0
+optional_missingness_10,0,135,0,0,0
+optional_missingness_30,0,440,0,0,0
+optional_missingness_50,0,736,0,0,0
+edge_removal_15,0,0,692,0,0
+edge_removal_30,0,0,1391,0,0
+misleading_edge_rewire_15,0,0,0,712,0
+misleading_edge_rewire_30,0,0,0,1372,0
+provenance_missingness_30,0,0,0,0,169

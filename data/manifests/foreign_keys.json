@@ -1,0 +1,590 @@
+[
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "ColorID",
+    "target_table": "Warehouse.Colors",
+    "target_column": "ColorID"
+  },
+  {
+    "source_table": "Sales.OrderLines",
+    "source_column": "PackageTypeID",
+    "target_table": "Warehouse.PackageTypes",
+    "target_column": "PackageTypeID"
+  },
+  {
+    "source_table": "Sales.InvoiceLines",
+    "source_column": "PackageTypeID",
+    "target_table": "Warehouse.PackageTypes",
+    "target_column": "PackageTypeID"
+  },
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "UnitPackageID",
+    "target_table": "Warehouse.PackageTypes",
+    "target_column": "PackageTypeID"
+  },
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "OuterPackageID",
+    "target_table": "Warehouse.PackageTypes",
+    "target_column": "PackageTypeID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "PackageTypeID",
+    "target_table": "Warehouse.PackageTypes",
+    "target_column": "PackageTypeID"
+  },
+  {
+    "source_table": "Warehouse.StockItemStockGroups",
+    "source_column": "StockGroupID",
+    "target_table": "Warehouse.StockGroups",
+    "target_column": "StockGroupID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "StockGroupID",
+    "target_table": "Warehouse.StockGroups",
+    "target_column": "StockGroupID"
+  },
+  {
+    "source_table": "Application.Cities",
+    "source_column": "StateProvinceID",
+    "target_table": "Application.StateProvinces",
+    "target_column": "StateProvinceID"
+  },
+  {
+    "source_table": "Application.SystemParameters",
+    "source_column": "DeliveryCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Application.SystemParameters",
+    "source_column": "PostalCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "DeliveryCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "PostalCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "DeliveryCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "PostalCityID",
+    "target_table": "Application.Cities",
+    "target_column": "CityID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "target_column": "SupplierID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrders",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "target_column": "SupplierID"
+  },
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "target_column": "SupplierID"
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "target_column": "SupplierID"
+  },
+  {
+    "source_table": "Sales.CustomerTransactions",
+    "source_column": "CustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "CustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "BillToCustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "CustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "CustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "CustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "BillToCustomerID",
+    "target_table": "Sales.Customers",
+    "target_column": "CustomerID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "PurchaseOrderID",
+    "target_table": "Purchasing.PurchaseOrders",
+    "target_column": "PurchaseOrderID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "PurchaseOrderID",
+    "target_table": "Purchasing.PurchaseOrders",
+    "target_column": "PurchaseOrderID"
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "PurchaseOrderID",
+    "target_table": "Purchasing.PurchaseOrders",
+    "target_column": "PurchaseOrderID"
+  },
+  {
+    "source_table": "Sales.OrderLines",
+    "source_column": "OrderID",
+    "target_table": "Sales.Orders",
+    "target_column": "OrderID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "BackorderOrderID",
+    "target_table": "Sales.Orders",
+    "target_column": "OrderID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "OrderID",
+    "target_table": "Sales.Orders",
+    "target_column": "OrderID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "SalespersonPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "PackedByPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.Colors",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.PackageTypes",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.OrderLines",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.StockGroups",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.StockItemStockGroups",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.StateProvinces",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.Cities",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.CustomerTransactions",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.SystemParameters",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.InvoiceLines",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "PrimaryContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "AlternateContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "PrimaryContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "AlternateContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrders",
+    "source_column": "ContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrders",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "SalespersonPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "PickedByPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "ContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Orders",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.People",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Warehouse.StockItemHoldings",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.Countries",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.DeliveryMethods",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.PaymentMethods",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Application.TransactionTypes",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Purchasing.SupplierCategories",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.BuyingGroups",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.CustomerCategories",
+    "source_column": "LastEditedBy",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "ContactPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "AccountsPersonID",
+    "target_table": "Application.People",
+    "target_column": "PersonID"
+  },
+  {
+    "source_table": "Sales.OrderLines",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Warehouse.StockItemStockGroups",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Sales.InvoiceLines",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Warehouse.StockItemHoldings",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "target_column": "StockItemID"
+  },
+  {
+    "source_table": "Application.StateProvinces",
+    "source_column": "CountryID",
+    "target_table": "Application.Countries",
+    "target_column": "CountryID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "DeliveryMethodID",
+    "target_table": "Application.DeliveryMethods",
+    "target_column": "DeliveryMethodID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "DeliveryMethodID",
+    "target_table": "Application.DeliveryMethods",
+    "target_column": "DeliveryMethodID"
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrders",
+    "source_column": "DeliveryMethodID",
+    "target_table": "Application.DeliveryMethods",
+    "target_column": "DeliveryMethodID"
+  },
+  {
+    "source_table": "Sales.Invoices",
+    "source_column": "DeliveryMethodID",
+    "target_table": "Application.DeliveryMethods",
+    "target_column": "DeliveryMethodID"
+  },
+  {
+    "source_table": "Sales.CustomerTransactions",
+    "source_column": "PaymentMethodID",
+    "target_table": "Application.PaymentMethods",
+    "target_column": "PaymentMethodID"
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "PaymentMethodID",
+    "target_table": "Application.PaymentMethods",
+    "target_column": "PaymentMethodID"
+  },
+  {
+    "source_table": "Sales.CustomerTransactions",
+    "source_column": "TransactionTypeID",
+    "target_table": "Application.TransactionTypes",
+    "target_column": "TransactionTypeID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "TransactionTypeID",
+    "target_table": "Application.TransactionTypes",
+    "target_column": "TransactionTypeID"
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "TransactionTypeID",
+    "target_table": "Application.TransactionTypes",
+    "target_column": "TransactionTypeID"
+  },
+  {
+    "source_table": "Purchasing.Suppliers",
+    "source_column": "SupplierCategoryID",
+    "target_table": "Purchasing.SupplierCategories",
+    "target_column": "SupplierCategoryID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "BuyingGroupID",
+    "target_table": "Sales.BuyingGroups",
+    "target_column": "BuyingGroupID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "BuyingGroupID",
+    "target_table": "Sales.BuyingGroups",
+    "target_column": "BuyingGroupID"
+  },
+  {
+    "source_table": "Sales.CustomerTransactions",
+    "source_column": "InvoiceID",
+    "target_table": "Sales.Invoices",
+    "target_column": "InvoiceID"
+  },
+  {
+    "source_table": "Sales.InvoiceLines",
+    "source_column": "InvoiceID",
+    "target_table": "Sales.Invoices",
+    "target_column": "InvoiceID"
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "InvoiceID",
+    "target_table": "Sales.Invoices",
+    "target_column": "InvoiceID"
+  },
+  {
+    "source_table": "Sales.Customers",
+    "source_column": "CustomerCategoryID",
+    "target_table": "Sales.CustomerCategories",
+    "target_column": "CustomerCategoryID"
+  },
+  {
+    "source_table": "Sales.SpecialDeals",
+    "source_column": "CustomerCategoryID",
+    "target_table": "Sales.CustomerCategories",
+    "target_column": "CustomerCategoryID"
+  }
+]

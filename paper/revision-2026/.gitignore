@@ -1,0 +1,10 @@
+build/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz
+.DS_Store
+.venv*/

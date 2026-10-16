@@ -1,0 +1,13 @@
+dataset,seed,accepted_links,false_merges,raw_source_graph_unchanged,one_to_one
+WWI,17,31,0,True,True
+WWI,29,42,1,True,True
+WWI,43,34,0,True,True
+Olist,17,355,18,True,True
+Olist,29,374,9,True,True
+Olist,43,363,10,True,True
+DataCo,17,219,23,True,True
+DataCo,29,225,23,True,True
+DataCo,43,192,16,True,True
+BPI2019,17,135,22,True,True
+BPI2019,29,135,18,True,True
+BPI2019,43,102,14,True,True

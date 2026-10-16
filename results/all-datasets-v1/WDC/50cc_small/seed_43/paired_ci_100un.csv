@@ -1,0 +1,3 @@
+contrast,ci_low,ci_high,bootstrap_unit
+B3Embedding_minus_B2Attributes,-0.20327728066546433,-0.11240465852327887,product groups with endpoint multiplicities
+B2EmbeddingAugmented_minus_B2Attributes,-0.013698108520473781,0.0614825474061648,product groups with endpoint multiplicities

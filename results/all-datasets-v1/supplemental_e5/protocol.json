@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "same_candidates_within_each_dataset_and_target": true,
+  "models": "Frozen seed 43; WDC frozen 50cc/small/seed43; no refitting or changed thresholds.",
+  "size_semantics": "Four graph datasets reuse main E5 source-view node targets. Supplemental WDC scorer points are 1k/10k/100k pair rows from the official fully unseen test, extended by exact feature-row replicas; actual_nodes is the independent offer pool. Main WDC E5 retains all nine full offer-volume/blocking/feature/scoring trials.",
+  "timing": "One warm-up then three measured repeats of each scorer, calibration and attribute fallback included. Shared feature construction is outside these scorer-only timings and remains separately measured in the main E5.",
+  "canonicalization": "Greedy descending-probability one-to-one acceptance on identical bounded pairs; rejected/abstained endpoints retain source identity. Measured separately from oracle-controlled query timing.",
+  "limits": "Supplementary cost comparison; model-only timing ratios are not end-to-end graph/attribute overhead ratios. WDC canonicalization/ERP queries are inapplicable."
+}

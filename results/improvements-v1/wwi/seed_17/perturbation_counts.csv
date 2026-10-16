@@ -1,0 +1,13 @@
+seed,scenario,attributes_changed,optional_fields_removed,provenance_fields_removed,edges_removed,edges_rewired,injected_cross_silo_keys
+17,clean,0,0,0,0,0,0
+17,no_anchors,0,0,0,0,0,0
+17,attribute_noise_30,27,0,0,0,0,0
+17,attribute_noise_50,48,0,0,0,0,0
+17,optional_missingness_10,0,16,0,0,0,0
+17,optional_missingness_30,0,53,0,0,0,0
+17,optional_missingness_50,0,82,0,0,0,0
+17,edge_removal_15,0,0,0,4,0,0
+17,edge_removal_30,0,0,0,16,0,0
+17,misleading_edge_rewire_15,0,0,0,0,7,0
+17,misleading_edge_rewire_30,0,0,0,0,14,0
+17,provenance_missingness_30,0,0,75,0,0,0

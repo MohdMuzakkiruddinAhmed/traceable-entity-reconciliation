@@ -1,0 +1,18 @@
+{
+  "dataset": "BPI2019",
+  "nodes": 1926659,
+  "edges": 7138894,
+  "dangling_edges": 0,
+  "lineage_missing": 0,
+  "lineage_coverage": 1.0,
+  "all_reference_sets_exact": true,
+  "edge_import_idempotent": true,
+  "build_seconds": 69.25164290005341,
+  "representation": "disk SQLite typed property graph; independent native relational FK joins",
+  "identity_truth": "controlled vendor views; separate hashed purchase cases per silo; no annotated dirty-identity labels",
+  "eligible_vendor_groups": 1378,
+  "vendor_names_excluded": true,
+  "amount_semantics": "first-event anonymized cumulative net worth per case, not sum of cumulative event values or actual paid spend",
+  "quantity_semantics": "not provided; never fabricated",
+  "ordering": "original trace ordinal; timestamp inversions/ties retained as source observations"
+}

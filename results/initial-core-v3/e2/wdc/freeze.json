@@ -1,0 +1,19 @@
+{
+  "model_sha256": "d78efcf21d6a41b25e695b9aab993bbaf14b167ad6563b3fe23bce003a3a9da1",
+  "B2_threshold": 0.6094409070536387,
+  "B1_threshold": 0.55,
+  "config": {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_products": 100,
+    "expected_train": 2500,
+    "expected_validation": 2500,
+    "expected_test": 4500,
+    "files": {
+      "train": "wdcproducts50cc50rnd000un_train_small.json.gz",
+      "validation": "wdcproducts50cc50rnd000un_valid_small.json.gz",
+      "test": "wdcproducts50cc50rnd100un_gs.json.gz"
+    }
+  },
+  "frozen_at_utc": "2026-10-12T00:55:21.833899+00:00"
+}

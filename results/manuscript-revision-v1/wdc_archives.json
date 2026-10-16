@@ -1,0 +1,23 @@
+[
+  {
+    "corner_cases": 20,
+    "archive": "wdc-products-20pair.zip",
+    "sha256": "7d23e706ed56d5e4ae53088251240725492a3b1e7425e3cee379c0edb1044d25",
+    "bytes": 20500888,
+    "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/20pair.zip"
+  },
+  {
+    "corner_cases": 50,
+    "archive": "wdc-products-50pair.zip",
+    "sha256": "57fca0c66bd1d7a09298dfb5df4ed6428251487517e9cfbce209aad99388359d",
+    "bytes": 22112083,
+    "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/50pair.zip"
+  },
+  {
+    "corner_cases": 80,
+    "archive": "wdc-products-80pair.zip",
+    "sha256": "b2044939cee5ea6f12148a2f3551508de3cb77660dfc91767c44daaf9d8a9c4a",
+    "bytes": 21985075,
+    "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/80pair.zip"
+  }
+]

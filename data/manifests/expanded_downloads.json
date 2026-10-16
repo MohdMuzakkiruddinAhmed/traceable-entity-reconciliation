@@ -1,0 +1,102 @@
+{
+  "datasets": [
+    "WWI",
+    "WDC",
+    "Olist",
+    "DataCo",
+    "BPI2019"
+  ],
+  "files": [
+    {
+      "file": "olist-v2.zip",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce?datasetVersionNumber=2",
+      "source": "Official Olist Kaggle v2; CC BY-NC-SA 4.0",
+      "bytes": 44717580,
+      "sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784",
+      "md5": "f2f3704ec08d55ef94fc2887bdc96472",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "DataCoSupplyChainDataset.csv",
+      "url": "https://github.com/trquanganhng/DataCoSupplyChain/releases/download/Download/DataCoSupplyChainDataset.csv",
+      "source": "Mirror of Mendeley DataCo v5; official HTTP acquisition returned 403; mirror asset ID 163424030; primary DOI 10.17632/8gx2fvg2k6.5; CC BY 4.0",
+      "bytes": 95910149,
+      "sha256": "fa6d022ed437155e1a2f0378710602848703c8a7f203f7ff5d77805bf8480aa6",
+      "md5": "354eb3cd362619ef120ca2201337ae92",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "BPI_Challenge_2019.xes",
+      "url": "https://ndownloader.figshare.com/files/24072995",
+      "source": "Official 4TU BPI Challenge 2019 v1; legacy Figshare file ID from publisher metadata, current 4TU download returned 503; CC BY 4.0",
+      "bytes": 728558522,
+      "sha256": "af63bc687fc4152f2123b05c3af7772b37ef3fce2d3f67f812666c9e356baae7",
+      "md5": "4eb909242351193a61e1c15b9c3cc814",
+      "publisher_md5_verified": true
+    },
+    {
+      "file": "wdc-products-20pair.zip",
+      "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/20pair.zip",
+      "source": "Official WDC Products pairwise 20% corner cases",
+      "bytes": 20500888,
+      "sha256": "7d23e706ed56d5e4ae53088251240725492a3b1e7425e3cee379c0edb1044d25",
+      "md5": "2a5e03608314d1a70449abf30f8d16d3",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "wdc-products-80pair.zip",
+      "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/80pair.zip",
+      "source": "Official WDC Products pairwise 80% corner cases",
+      "bytes": 21985075,
+      "sha256": "b2044939cee5ea6f12148a2f3551508de3cb77660dfc91767c44daaf9d8a9c4a",
+      "md5": "a87e9bbce02f842e5311936dbe4332b9",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "models/all-MiniLM-L6-v2/model_quint8_avx2.onnx",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/onnx/model_quint8_avx2.onnx",
+      "source": "Official sentence-transformers/all-MiniLM-L6-v2; pinned revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; Apache-2.0 model card",
+      "bytes": 23046789,
+      "sha256": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+      "md5": "a3348f0ae4a6c1e620bbe9957045db20",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "models/all-MiniLM-L6-v2/tokenizer.json",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json",
+      "source": "Official sentence-transformers/all-MiniLM-L6-v2; pinned revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; Apache-2.0 model card",
+      "bytes": 466247,
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "md5": "f540215c85aa2a5d5d5ea440093397a8",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "models/all-MiniLM-L6-v2/tokenizer_config.json",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json",
+      "source": "Official sentence-transformers/all-MiniLM-L6-v2; pinned revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; Apache-2.0 model card",
+      "bytes": 350,
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "md5": "0a9aa1a3432247cd4025ffe572ee428a",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "models/all-MiniLM-L6-v2/config.json",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json",
+      "source": "Official sentence-transformers/all-MiniLM-L6-v2; pinned revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; Apache-2.0 model card",
+      "bytes": 612,
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "md5": "6bb051fcf27f36c20d8045847c7fdb56",
+      "publisher_md5_verified": false
+    },
+    {
+      "file": "models/all-MiniLM-L6-v2/README.md",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+      "source": "Official sentence-transformers/all-MiniLM-L6-v2; pinned revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; Apache-2.0 model card",
+      "bytes": 10502,
+      "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+      "md5": "c9f3bd114fb5ecfb5a31cede0e09a6c0",
+      "publisher_md5_verified": false
+    }
+  ],
+  "dataco_provenance_limit": "Mirror bytes are checksummed and schema/count verified; not claimed byte-identical to inaccessible publisher files."
+}

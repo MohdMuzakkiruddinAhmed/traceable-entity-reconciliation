@@ -1,0 +1,44 @@
+{
+  "config": {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_products": 100,
+    "expected_train": 2500,
+    "expected_validation": 2500,
+    "expected_test": 4500,
+    "files": {
+      "train": "wdcproducts50cc50rnd000un_train_small.json.gz",
+      "validation": "wdcproducts50cc50rnd000un_valid_small.json.gz",
+      "test": "wdcproducts50cc50rnd100un_gs.json.gz"
+    }
+  },
+  "archive_sha256": "57fca0c66bd1d7a09298dfb5df4ed6428251487517e9cfbce209aad99388359d",
+  "splits": {
+    "train": {
+      "member": "wdcproducts50cc50rnd000un_train_small.json.gz",
+      "sha256_decompressed": "46529566002e21e25f5d76d584acbf042a43516801bdb66d077c60dd9345db64",
+      "pairs": 2500,
+      "positives": 500,
+      "offers": 1000
+    },
+    "validation": {
+      "member": "wdcproducts50cc50rnd000un_valid_small.json.gz",
+      "sha256_decompressed": "4f33565e2c69a4656cdda8556f2efeb35d815c9bc59a4c40f38aa9465d8845e4",
+      "pairs": 2500,
+      "positives": 500,
+      "offers": 1000
+    },
+    "test": {
+      "member": "wdcproducts50cc50rnd100un_gs.json.gz",
+      "sha256_decompressed": "297c96fcf4a295726295086ed5cdf258eb12cb8ba913430d6fa41864b93ca479",
+      "pairs": 4500,
+      "positives": 500,
+      "offers": 1000
+    }
+  },
+  "offer_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  }
+}

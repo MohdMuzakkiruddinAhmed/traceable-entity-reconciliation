@@ -1,0 +1,58 @@
+[
+  {
+    "source_table": "Purchasing.PurchaseOrders",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "relation": "ORDERED_FROM",
+    "valid_source_join_rows": 2074
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "PurchaseOrderID",
+    "target_table": "Purchasing.PurchaseOrders",
+    "relation": "PART_OF_PO",
+    "valid_source_join_rows": 8367
+  },
+  {
+    "source_table": "Purchasing.PurchaseOrderLines",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "relation": "FOR_STOCK_ITEM",
+    "valid_source_join_rows": 8367
+  },
+  {
+    "source_table": "Warehouse.StockItems",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "relation": "FROM_SUPPLIER",
+    "valid_source_join_rows": 227
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "StockItemID",
+    "target_table": "Warehouse.StockItems",
+    "relation": "MOVES_STOCK_ITEM",
+    "valid_source_join_rows": 236667
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "PurchaseOrderID",
+    "target_table": "Purchasing.PurchaseOrders",
+    "relation": "FOR_PO",
+    "valid_source_join_rows": 8358
+  },
+  {
+    "source_table": "Warehouse.StockItemTransactions",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "relation": "RELATES_TO_SUPPLIER",
+    "valid_source_join_rows": 8358
+  },
+  {
+    "source_table": "Purchasing.SupplierTransactions",
+    "source_column": "SupplierID",
+    "target_table": "Purchasing.Suppliers",
+    "relation": "RELATES_TO_SUPPLIER",
+    "valid_source_join_rows": 2438
+  }
+]

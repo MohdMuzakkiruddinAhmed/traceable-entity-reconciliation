@@ -1,0 +1,118 @@
+{
+  "files": [
+    {
+      "id": 24072995,
+      "uuid": "864493d1-3a58-47f6-ad6f-27f95f995828",
+      "name": "BPI_Challenge_2019.xes",
+      "size": 728558522,
+      "is_link_only": false,
+      "is_incomplete": false,
+      "download_url": "https://data.4tu.nl/file/35ed7122-966a-484e-a0e1-749b64e3366d/864493d1-3a58-47f6-ad6f-27f95f995828",
+      "supplied_md5": "4eb909242351193a61e1c15b9c3cc814",
+      "computed_md5": "4eb909242351193a61e1c15b9c3cc814"
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "Time coverage",
+      "value": "2018"
+    },
+    {
+      "name": "Publisher",
+      "value": "4TU.Centre for Research Data"
+    },
+    {
+      "name": "Organizations",
+      "value": "Eindhoven University of Technology, Department of Mathematics and Computer Science"
+    },
+    {
+      "name": "Format",
+      "value": "media types: text/xml"
+    }
+  ],
+  "authors": [
+    {
+      "id": 9123727,
+      "uuid": "acf80d21-bb77-4762-a219-2110947904b1",
+      "full_name": "Boudewijn van Dongen",
+      "is_active": true,
+      "url_name": "Boudewijn_van_Dongen",
+      "orcid_id": "0000-0002-3978-6464"
+    }
+  ],
+  "figshare_url": "https://data.4tu.nl/articles/dataset/BPI_Challenge_2019/12715853",
+  "description": "This data originated from a large multinational company operating from The Netherlands in the area of coatings and paints and we ask participants to investigate the purchase order handling process for some of its 60 subsidiaries. In particular, the process owner has compliance questions.\n\nIn the data, each purchase order (or purchase document) contains one or more line items. For each line item, there are roughly four types of flows in the data:\n\n(1) 3-way matching, invoice after goods receipt: For these items, the value of the goods receipt message should be matched against the value of an invoice receipt message and the value put during creation of the item (indicated by both the GR-based flag and the Goods Receipt flags set to true).\n\n(2) 3-way matching, invoice before goods receipt: Purchase Items that do require a goods receipt message, while they do not require GR-based invoicing (indicated by the GR-based IV flag set to false and the Goods Receipt flags set to true). For such purchase items, invoices can be entered before the goods are receipt, but they are blocked until goods are received. This unblocking can be done by a user, or by a batch process at regular intervals. Invoices should only be cleared if goods are received and the value matches with the invoice and the value at creation of the item.\n\n(3) 2-way matching (no goods receipt needed): For these items, the value of the invoice should match the value at creation (in full or partially until PO value is consumed), but there is no separate goods receipt message required (indicated by both the GR-based flag and the Goods Receipt flags set to false).\n\n(4)Consignment: For these items, there are no invoices on PO level as this is handled fully in a separate process. Here we see GR indicator is set to true but the GR IV flag is set to false and also we know by item type (consignment) that we do not expect an invoice against this item.\n\nUnfortunately, the complexity of the data goes further than just this division in four categories. For each purchase item, there can be many goods receipt messages and corresponding invoices which are subsequently paid. Consider for example the process of paying rent. There is a Purchase Document with one item for paying rent, but a total of 12 goods receipt messages with (cleared) invoices with a value equal to 1/12 of the total amount. For logistical services, there may even be hundreds of goods receipt messages for one line item.\n\nOverall, for each line item, the amounts of the line item, the goods receipt messages (if applicable) and the invoices have to match for the process to be compliant.\n\nOf course, the log is anonymized, but some semantics are left in the data, for example: The resources are split between batch users and normal users indicated by their name. The batch users are automated processes executed by different systems. The normal users refer to human actors in the process. The monetary values of each event are anonymized from the original data using a linear translation respecting 0, i.e. addition of multiple invoices for a single item should still lead to the original item worth (although there may be small rounding errors for numerical reasons). Company, vendor, system and document names and IDs are anonymized in a consistent way throughout the log. The company has the key, so any result can be translated by them to business insights about real customers and real purchase documents.\n\nThe event log is fully IEEE-XES compliant and is structured as follows. The case ID is a combination of the purchase document and the purchase item. There is a total of 76,349 purchase documents containing in total 251,734 items, i.e. there are 251,734 cases. In these cases, there are 1,595,923 events relating to 42 activities performed by 627 users (607 human users and 20 batch users). Sometimes the user field is empty, or NONE, which indicates no user was recorded in the source system.\n\nFor each purchase item (or case) the following attributes are recorded:\n\nconcept:name: A combination of the purchase document id and the item id, Purchasing Document: The purchasing document ID,\nItem: The item ID, Item Type: The type of the item, GR-Based Inv. Verif.: Flag indicating if GR-based invoicing is required (see above),\nGoods Receipt: Flag indicating if 3-way matching is required (see above), Source: The source system of this item, Doc. Category name: The name of the category of the purchasing document,\nCompany: The subsidiary of the company from where the purchase originated, Spend classification text: A text explaining the class of purchase item, Spend area text: A text explaining the area for the purchase item, Sub spend area text: Another text explaining the area for the purchase item, Vendor: The vendor to which the purchase document was sent, Name: The name of the vendor,\nDocument Type: The document type, Item Category: The category as explained above (3-way with GR-based invoicing, 3-way without, 2-way, consignment).",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 728558522,
+  "created_date": "2019-01-31T00:00:00",
+  "modified_date": "2020-07-28T09:41:12",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Business Process Intelligence (BPI)",
+    "Compliance Checking",
+    "IEEE Task Force on Process Mining",
+    "Process Mining",
+    "real life event logs"
+  ],
+  "categories": [
+    {
+      "id": 13613,
+      "uuid": "db767cac-c5f5-4e33-8ee5-532138accdcf",
+      "title": "Computation Theory and Mathematics",
+      "parent_id": 13611,
+      "parent_uuid": "c78e1734-8680-4846-8bc9-92ba6e9f77ac",
+      "path": "",
+      "source_id": null,
+      "taxonomy_id": null
+    }
+  ],
+  "references": [
+    "https://icpmconference.org/icpm-2019/contests-challenges/bpi-challenge-2019/"
+  ],
+  "has_linked_file": false,
+  "citation": "van Dongen, Boudewijn (2019): BPI Challenge 2019. 4TU.ResearchData. Dataset. https://doi.org/10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 12715853,
+  "uuid": "35ed7122-966a-484e-a0e1-749b64e3366d",
+  "title": "BPI Challenge 2019",
+  "doi": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+  "handle": "",
+  "url": "https://data.4tu.nl/v2/articles/35ed7122-966a-484e-a0e1-749b64e3366d",
+  "published_date": "2019-01-31T00:00:00",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 28589,
+  "url_private_api": "https://data.4tu.nl/v2/account/articles/35ed7122-966a-484e-a0e1-749b64e3366d",
+  "url_public_api": "https://data.4tu.nl/v2/articles/35ed7122-966a-484e-a0e1-749b64e3366d",
+  "url_private_html": "https://data.4tu.nl/my/datasets/35ed7122-966a-484e-a0e1-749b64e3366d/edit",
+  "url_public_html": "https://data.4tu.nl/datasets/35ed7122-966a-484e-a0e1-749b64e3366d/1",
+  "timeline": {
+    "posted": "2019-01-31T00:00:00",
+    "revision": null,
+    "submission": null,
+    "firstOnline": "2019-01-31T00:00:00",
+    "publisherPublication": "2019-01-31T00:00:00"
+  },
+  "resource_title": "",
+  "resource_doi": "",
+  "agreed_to_deposit_agreement": false,
+  "agreed_to_publish": false
+}

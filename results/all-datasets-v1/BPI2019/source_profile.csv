@@ -1,0 +1,9 @@
+dataset,table,rows,columns,null_cells
+BPI2019,purchase_orders,76349,1,0
+BPI2019,vendors,1975,1,0
+BPI2019,companies,4,1,0
+BPI2019,categories,4,1,0
+BPI2019,activities,42,1,0
+BPI2019,resources,628,1,0
+BPI2019,cases,251734,16,9867
+BPI2019,events,1595923,5,798180

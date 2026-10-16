@@ -1,0 +1,4 @@
+dataset,target,actual,matching_records,pairs,recall,seconds,rss_gib
+WDC,1000,1000,1000,12638,0.99,0.96,2
+WDC,10000,10000,10000,160137,0.837,18.74,2.11
+WDC,100000,100000,100000,1606844,0.336,373.05,3.27

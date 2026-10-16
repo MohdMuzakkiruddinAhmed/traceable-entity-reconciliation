@@ -1,0 +1,14 @@
+{
+  "expected_nodes": 249786,
+  "actual_nodes": 249786,
+  "node_precision": 1.0,
+  "node_recall": 1.0,
+  "expected_edges": 274856,
+  "actual_edges": 274856,
+  "edge_precision": 1.0,
+  "edge_recall": 1.0,
+  "orphan_count": 0,
+  "lineage_coverage": 1.0,
+  "idempotent": true,
+  "build_seconds": 1.7314036000752822
+}

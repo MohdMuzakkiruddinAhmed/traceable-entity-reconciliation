@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kg-erp"
+version = "1.1.0"
+description = "Traceable entity reconciliation with gated transaction context"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scikit-learn", "networkx", "rapidfuzz", "PyYAML", "requests", "psutil", "matplotlib", "joblib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+fullstudy = ["onnxruntime", "tokenizers", "huggingface_hub"]
+paper = ["reportlab", "pdfplumber", "pypdf", "Pillow"]
+
+[project.scripts]
+kgerp = "kgerp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

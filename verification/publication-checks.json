@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "software_document_files_scanned": 175,
+  "source_documentation_scope_scan": "passed",
+  "recognizable_credential_pattern_matches": 0,
+  "documentation_files_checked": 13,
+  "missing_internal_links": [],
+  "regular_files_over_100_MiB": 0,
+  "attached_paper_preserved": true,
+  "excluded_from_git": {
+    "material_assets": 103,
+    "credentials_and_runtime_caches": true
+  },
+  "public_remote_created": false
+}

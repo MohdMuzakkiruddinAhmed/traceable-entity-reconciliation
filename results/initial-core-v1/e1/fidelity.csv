@@ -1,0 +1,7 @@
+table,expected_nodes,actual_nodes
+Purchasing.Suppliers,13,13
+Purchasing.PurchaseOrders,2074,2074
+Purchasing.PurchaseOrderLines,8367,8367
+Warehouse.StockItems,227,227
+Warehouse.StockItemTransactions,236667,236667
+Purchasing.SupplierTransactions,2438,2438

@@ -1,0 +1,26 @@
+dataset,experiment,status,evidence,scope
+WWI,E1,executed,WWI/e1.json,native plus controlled source views; WWI native Q1-Q8 saved separately
+WWI,E2,executed,"WWI/seed_{17,29,43}/matching.csv",native plus controlled source views; WWI native Q1-Q8 saved separately
+WWI,E3,executed,"WWI/seed_{17,29,43}/query_accuracy.csv",native plus controlled source views; WWI native Q1-Q8 saved separately
+WWI,E4,executed,"WWI/seed_{17,29,43}/robustness.csv",native plus controlled source views; WWI native Q1-Q8 saved separately
+WWI,E5,executed,WWI/e5/scale_trials.csv,native plus controlled source views; WWI native Q1-Q8 saved separately
+Olist,E1,executed,Olist/e1.json,natural repeat customers
+Olist,E2,executed,"Olist/seed_{17,29,43}/matching.csv",natural repeat customers
+Olist,E3,executed,"Olist/seed_{17,29,43}/query_accuracy.csv",natural repeat customers
+Olist,E4,executed,"Olist/seed_{17,29,43}/robustness.csv",natural repeat customers
+Olist,E5,executed,Olist/e5/scale_trials.csv,natural repeat customers
+DataCo,E1,executed,DataCo/e1.json,"controlled source-view identity task, not dirty-identity ground truth"
+DataCo,E2,executed,"DataCo/seed_{17,29,43}/matching.csv","controlled source-view identity task, not dirty-identity ground truth"
+DataCo,E3,executed,"DataCo/seed_{17,29,43}/query_accuracy.csv","controlled source-view identity task, not dirty-identity ground truth"
+DataCo,E4,executed,"DataCo/seed_{17,29,43}/robustness.csv","controlled source-view identity task, not dirty-identity ground truth"
+DataCo,E5,executed,DataCo/e5/scale_trials.csv,"controlled source-view identity task, not dirty-identity ground truth"
+BPI2019,E1,executed,BPI2019/e1.json,"controlled source-view identity task, not dirty-identity ground truth"
+BPI2019,E2,executed,"BPI2019/seed_{17,29,43}/matching.csv","controlled source-view identity task, not dirty-identity ground truth"
+BPI2019,E3,executed,"BPI2019/seed_{17,29,43}/query_accuracy.csv","controlled source-view identity task, not dirty-identity ground truth"
+BPI2019,E4,executed,"BPI2019/seed_{17,29,43}/robustness.csv","controlled source-view identity task, not dirty-identity ground truth"
+BPI2019,E5,executed,BPI2019/e5/scale_trials.csv,"controlled source-view identity task, not dirty-identity ground truth"
+WDC,E1,executed,WDC/e1.json,"official offer-only pairwise benchmark; 27 configurations, three seeds"
+WDC,E2,executed,WDC/matching.csv,"official offer-only pairwise benchmark; 27 configurations, three seeds"
+WDC,E3,not_applicable,WDC/experiment_scope.json,No ERP transaction graph: ERP query/context tests would require invented relationships
+WDC,E4,executed,WDC/robustness.csv,"official offer-only pairwise benchmark; 27 configurations, three seeds"
+WDC,E5,executed,WDC/e5/scale_trials.csv,"official offer-only pairwise benchmark; 27 configurations, three seeds"

@@ -1,0 +1,12 @@
+{
+  "wdc-products-50pair.zip": {
+    "url": "https://data.dws.informatik.uni-mannheim.de/largescaleproductcorpus/data/wdc-products/50pair.zip",
+    "bytes": 22112083,
+    "sha256": "57fca0c66bd1d7a09298dfb5df4ed6428251487517e9cfbce209aad99388359d"
+  },
+  "WideWorldImporters-Standard.bak": {
+    "url": "https://github.com/microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Standard.bak",
+    "bytes": 126951424,
+    "sha256": "066279a8cd28c8d85cbd8215ea71a5d672b420cfbc19756b635c27bd8027dada"
+  }
+}

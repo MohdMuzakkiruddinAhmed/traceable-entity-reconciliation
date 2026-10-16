@@ -1,0 +1,14 @@
+{
+  "dataset": "Olist",
+  "eligible_source_groups": 2913,
+  "selected_groups": 2913,
+  "selection": "stable source-key hash before alias perturbation; all eligible Olist repeats, cap for other datasets",
+  "transaction_sample_limit_per_view": 40,
+  "cross_silo_copied_transaction_rows": 0,
+  "group_counts": {
+    "train": 1747,
+    "validation": 583,
+    "test": 583
+  },
+  "identity_task": "natural repeat-customer observations"
+}

@@ -1,0 +1,207 @@
+{
+  "frozen_at_utc": "2026-10-12T01:46:29.465584+00:00",
+  "model_sha256": "bb2faa5769285c236a69d1b9ca6dfd7f91ee3b6daea80ba1a1ff69db58b8d852",
+  "model_selection": {
+    "attr": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.9578833115929037
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.9382257318253976
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8884960564515039
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6196385296644319
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.4286412965220032
+        }
+      ]
+    },
+    "weighted": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.940503491376519
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8846481665905948
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7575011357007365
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.5596979268593711
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.4080165141554958
+        }
+      ]
+    },
+    "unweighted": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.9405166725642322
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8836333425512042
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7274589542008841
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.489176547241044
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.3646395321178496
+        }
+      ]
+    },
+    "no_support": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.9460580418693266
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8978129444907056
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.759663008829479
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6491002346646982
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.4467883468909123
+        }
+      ]
+    }
+  },
+  "thresholds": {
+    "AttrPlus": 0.03548720029354225,
+    "GraphNoContext": 0.03548720029354225,
+    "GraphWeighted": 0.03548720029354225,
+    "GraphUngated": 0.01135198499587084,
+    "GraphUnweighted": 0.03548720029354225,
+    "GraphNoSupport": 0.03548720029354225,
+    "FlatWeighted": 0.03548720029354225
+  },
+  "validation_roles": {
+    "selection": {
+      "canonical_groups": 16,
+      "pairs": 148,
+      "positives": 16
+    },
+    "calibration": {
+      "canonical_groups": 16,
+      "pairs": 97,
+      "positives": 16
+    },
+    "policy": {
+      "canonical_groups": 16,
+      "pairs": 165,
+      "positives": 16
+    }
+  },
+  "development_roles_group_disjoint": true,
+  "pairs_between_roles_omitted": 781,
+  "blocker_development_trials": [
+    {
+      "k": 8,
+      "pairs": 337,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 16,
+      "pairs": 610,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 32,
+      "pairs": 1106,
+      "blocking_recall": 1.0
+    }
+  ],
+  "chosen_k": 8,
+  "blocker_target_met": true,
+  "attribute_feature_names": [
+    "name_ratio",
+    "token_sort",
+    "token_jaccard",
+    "char_tfidf",
+    "category_agreement",
+    "brand_agreement",
+    "description_ratio",
+    "price_similarity",
+    "currency_agreement",
+    "name_missing",
+    "category_missing",
+    "brand_missing",
+    "price_missing",
+    "number_jaccard",
+    "alphanumeric_jaccard",
+    "size_agreement",
+    "size_conflict",
+    "size_missing",
+    "name_length_ratio",
+    "digit_missing"
+  ],
+  "context_feature_names": [
+    "weighted_anchor_jaccard",
+    "weighted_support",
+    "degree_similarity",
+    "weighted_category_cosine",
+    "supported_fraction",
+    "context_available"
+  ],
+  "calibration": "logistic sigmoid on separate calibration groups; thresholds on policy groups only",
+  "development_prior": 0.04030226700251889,
+  "class_prior_correction": "role partitions omit cross-role negatives; class weights restore full-validation prevalence using development labels only",
+  "classification": "exploratory extension after prior held-out review"
+}

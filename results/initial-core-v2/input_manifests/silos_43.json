@@ -1,0 +1,44 @@
+{
+  "seed": 43,
+  "groups": [
+    {
+      "split": "train",
+      "entity_type": "Supplier",
+      "source_records": 14,
+      "independent_entities": 7
+    },
+    {
+      "split": "train",
+      "entity_type": "StockItem",
+      "source_records": 272,
+      "independent_entities": 136
+    },
+    {
+      "split": "validation",
+      "entity_type": "Supplier",
+      "source_records": 6,
+      "independent_entities": 3
+    },
+    {
+      "split": "validation",
+      "entity_type": "StockItem",
+      "source_records": 90,
+      "independent_entities": 45
+    },
+    {
+      "split": "test",
+      "entity_type": "Supplier",
+      "source_records": 6,
+      "independent_entities": 3
+    },
+    {
+      "split": "test",
+      "entity_type": "StockItem",
+      "source_records": 92,
+      "independent_entities": 46
+    }
+  ],
+  "stock_movement_scope": "first 5000 original PK-sorted rows; E1 covers all source rows",
+  "finance_scope": "all supplier transactions in source B; no copied PO keys",
+  "context_scope": "same-split master nodes and FROM_SUPPLIER edges only"
+}

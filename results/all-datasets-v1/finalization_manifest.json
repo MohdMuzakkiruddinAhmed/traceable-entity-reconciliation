@@ -1,0 +1,12 @@
+{
+  "status": "completed_and_verified",
+  "timestamp_utc": "2026-10-12T15:23:49.676231+00:00",
+  "tests": 36,
+  "checks_passed": 3136,
+  "driver_sha256": "caa595479bfa9640a3b69efd465e44281b9b27729c58456f84d27a29f8c1f75f",
+  "report_sha256": "d7459d7c302de5c50971a5987277875a88d5fbfb0acb279f0254bafc36d118f3",
+  "verification_sha256": "0a8b2dbe726276095558a6a282269cab0d83a6acbd20d418474502cebb51a5d5",
+  "source_inputs_and_experimental_artifacts": "Immutable hashes in manifest.json; generated report/figure hashes in report_manifest.json.",
+  "human_study": "excluded_by_user",
+  "publication": "Expanded manuscript integration, author/release review and submission are unfinished."
+}

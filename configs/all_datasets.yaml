@@ -1,0 +1,49 @@
+version: 4
+classification: exploratory_scope_expansion_requested_by_user
+datasets: [WWI, WDC, Olist, DataCo, BPI2019]
+seeds: [17, 29, 43]
+split_seed: 20261012
+exclude: [E6_human_study]
+matching_scope:
+  Olist: natural_repeat_customers_all_eligible
+  DataCo: controlled_customer_aliases_max_1500_groups
+  BPI2019: controlled_vendor_views_disjoint_cases_max_1500_groups
+max_groups: 1500
+development_roles: [selection, calibration, policy]
+models:
+  logistic_C: [0.1, 1.0, 10.0]
+  forest_depths: [8, 16]
+  forest_trees: 160
+  min_anchors: 2
+  min_weighted_support: 1.0
+  reject_probability: 0.10
+blocking:
+  token_prefix: 4
+  k_grid: [8, 16, 32]
+  target_development_recall: 0.95
+  postings_multiplier: 8
+  max_keys_per_record: 12
+  max_candidates: 2000000
+bootstrap_replicates: 1000
+robustness:
+  attribute_noise: [0.30, 0.50]
+  optional_missingness: [0.10, 0.30, 0.50]
+  edge_removal: [0.15, 0.30]
+  misleading_edge_rewire: [0.15, 0.30]
+  provenance_missingness: [0.30]
+scale:
+  node_targets: [1000, 10000, 100000]
+  repetitions: 3
+  warm_repetitions: 5
+wdc:
+  corner_cases: [20, 50, 80]
+  development_sizes: [small, medium, large]
+  unseen_percent: [0, 50, 100]
+  official_pairs_unchanged: true
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  artifact: onnx/model_quint8_avx2.onnx
+  max_tokens: 256
+  batch_size: 64
+  pooling: attention_mask_mean_then_l2

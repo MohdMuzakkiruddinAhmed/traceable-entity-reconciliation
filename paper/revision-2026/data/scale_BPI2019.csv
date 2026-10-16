@@ -1,0 +1,4 @@
+dataset,target,actual,matching_records,pairs,recall,seconds,rss_gib
+BPI2019,1000,1032,50,270,0.92,0.5,1.08
+BPI2019,10000,10023,560,8231,0.767,4.5,1.11
+BPI2019,100000,100014,5566,88716,0.172,47.62,1.49

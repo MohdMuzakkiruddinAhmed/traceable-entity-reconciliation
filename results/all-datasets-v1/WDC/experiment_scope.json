@@ -1,0 +1,19 @@
+{
+  "official_configurations": 27,
+  "training_seeds": 3,
+  "attribute_methods": [
+    "B0Exact",
+    "B1Fuzzy",
+    "B2Attributes",
+    "B3Embedding",
+    "B2EmbeddingAugmented"
+  ],
+  "test_pairs_per_configuration": 4500,
+  "graph_context_E3_ERP_queries": "not applicable: no ERP transaction relationships; never constructed from benchmark gold",
+  "overlap_policy": "all official pairs retained; any supplied offer overlap disclosed and separately evaluated on offer-disjoint subset; overlap cells not clean held-out evidence",
+  "E1": "offer/schema/count/pair-uniqueness/provenance and split-integrity audit",
+  "E2": "all official pairwise configurations",
+  "E4": "attribute noise/missingness, hardness/unseen, calibration and coverage-risk",
+  "E5": "training cost by official small/medium/large sizes; additional candidate/index/scoring microbenchmarks in scale outputs",
+  "not_claimed": "reproduction of Ditto/HierGAT/R-SupCon training or a multiclass task; those are literature comparators, not planned mandatory experiments"
+}

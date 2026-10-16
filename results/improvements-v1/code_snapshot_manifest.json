@@ -1,0 +1,10 @@
+{
+  "src\\kgerp\\research_plus\\blocking.py": "4072f6d72ed525c6d02c27aeea078a804572e97f20c14672f35dd13b36d606de",
+  "src\\kgerp\\research_plus\\features.py": "c7cf596c8cdf27435eaea1e81a7e7c64cdecb0c79daf4b92ca12cb135aa95c2b",
+  "src\\kgerp\\research_plus\\learning.py": "d293c3cb50009de0dd84e824ede16f746a8c4866b9d0d04e6feea4d36d347a0e",
+  "src\\kgerp\\research_plus\\protocol.py": "d5af88a80a9e8f33d0169a018761189b8c021e4101d17300f2c87eae59d6248e",
+  "src\\kgerp\\research_plus\\queries.py": "0d893996c918aa4bd93761b5830551535d0caa226f5739720d34bc259f95ff75",
+  "src\\kgerp\\research_plus\\runner.py": "3d447681928690db72569b96b7b9097b86e4a885279242d9e3c4141b4f7a9258",
+  "src\\kgerp\\research_plus\\__init__.py": "6610b34db19e1ac33660882a2229aca8a43b07daef6c8a1fc84ac2f8405f3fc3",
+  "src\\kgerp\\research_plus\\__main__.py": "bacd9659e647d463d00ee4777b3fa11d50460b98989cb7560449c50b312bef14"
+}

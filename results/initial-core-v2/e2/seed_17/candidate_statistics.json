@@ -1,0 +1,9 @@
+{
+  "candidate_count": 1314,
+  "possible_pairs": 2125,
+  "reduction_ratio": 0.38164705882352945,
+  "max_index_block": 33,
+  "eligible_true_pairs": 49,
+  "retained_true_pairs": 49,
+  "same_candidates_all_models": true
+}

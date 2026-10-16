@@ -1,0 +1,16 @@
+{
+  "dataset": "Olist",
+  "nodes": 1569937,
+  "edges": 1775243,
+  "dangling_edges": 0,
+  "lineage_missing": 0,
+  "lineage_coverage": 1.0,
+  "all_reference_sets_exact": true,
+  "edge_import_idempotent": true,
+  "build_seconds": 38.519747799960896,
+  "representation": "disk SQLite typed property graph; independent native relational FK joins",
+  "identity_truth": "natural customer_unique_id, evaluator-only; two distinct observed accounts per eligible repeat customer",
+  "eligible_repeat_groups": 2913,
+  "source_tables": 9,
+  "geolocation_semantics": "separate observations and postal-prefix grouping nodes; no unique-coordinate assumption"
+}

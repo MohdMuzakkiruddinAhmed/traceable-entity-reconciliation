@@ -1,0 +1,206 @@
+{
+  "frozen_at_utc": "2026-10-12T01:42:24.468150+00:00",
+  "model_sha256": "14b820408b14297b4d10413082875d84dc215b634a03143087a036374a21a136",
+  "model_selection": {
+    "attr": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8513872130436184
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7456559167811545
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.3944856616218452
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.5342703399392935
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.20099665671327033
+        }
+      ]
+    },
+    "weighted": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8528734871034741
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7496305329255082
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.4035138683816921
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6391671752913286
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.14431847208028808
+        }
+      ]
+    },
+    "unweighted": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8518513104650163
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.754550815761749
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.4161664800056336
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6299799716048361
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.12655864619117632
+        }
+      ]
+    },
+    "no_support": {
+      "chosen": "logistic_C_0.1",
+      "trials": [
+        {
+          "candidate": "logistic_C_0.1",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.8524010617772634
+        },
+        {
+          "candidate": "logistic_C_1.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.7499228185864374
+        },
+        {
+          "candidate": "logistic_C_10.0",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.3855729984754974
+        },
+        {
+          "candidate": "forest_depth_8",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.6343239696198427
+        },
+        {
+          "candidate": "forest_depth_16",
+          "selection_f1": 1.0,
+          "selection_threshold": 0.1927502306019101
+        }
+      ]
+    }
+  },
+  "thresholds": {
+    "AttrPlus": 3.241258567700536e-82,
+    "GraphNoContext": 3.241258567700536e-82,
+    "GraphWeighted": 3.241258567700536e-82,
+    "GraphUngated": 4.1731480889600046e-85,
+    "GraphUnweighted": 3.241258567700536e-82,
+    "GraphNoSupport": 3.241258567700536e-82
+  },
+  "validation_roles": {
+    "selection": {
+      "canonical_groups": 16,
+      "pairs": 175,
+      "positives": 16
+    },
+    "calibration": {
+      "canonical_groups": 16,
+      "pairs": 136,
+      "positives": 16
+    },
+    "policy": {
+      "canonical_groups": 16,
+      "pairs": 123,
+      "positives": 16
+    }
+  },
+  "development_roles_group_disjoint": true,
+  "pairs_between_roles_omitted": 806,
+  "blocker_development_trials": [
+    {
+      "k": 8,
+      "pairs": 338,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 16,
+      "pairs": 622,
+      "blocking_recall": 1.0
+    },
+    {
+      "k": 32,
+      "pairs": 1136,
+      "blocking_recall": 1.0
+    }
+  ],
+  "chosen_k": 8,
+  "blocker_target_met": true,
+  "attribute_feature_names": [
+    "name_ratio",
+    "token_sort",
+    "token_jaccard",
+    "char_tfidf",
+    "category_agreement",
+    "brand_agreement",
+    "description_ratio",
+    "price_similarity",
+    "currency_agreement",
+    "name_missing",
+    "category_missing",
+    "brand_missing",
+    "price_missing",
+    "number_jaccard",
+    "alphanumeric_jaccard",
+    "size_agreement",
+    "size_conflict",
+    "size_missing",
+    "name_length_ratio",
+    "digit_missing"
+  ],
+  "context_feature_names": [
+    "weighted_anchor_jaccard",
+    "weighted_support",
+    "degree_similarity",
+    "weighted_category_cosine",
+    "supported_fraction",
+    "context_available"
+  ],
+  "calibration": "logistic sigmoid on separate calibration groups; thresholds on policy groups only",
+  "development_prior": 0.03870967741935484,
+  "class_prior_correction": "role partitions omit cross-role negatives; class weights restore full-validation prevalence using development labels only",
+  "classification": "exploratory extension after prior held-out review"
+}

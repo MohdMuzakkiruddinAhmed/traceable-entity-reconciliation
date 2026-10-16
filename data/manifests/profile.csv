@@ -1,0 +1,7 @@
+table,rows,unique_pk,outgoing_valid_edges
+Purchasing.Suppliers,13,13,0
+Purchasing.PurchaseOrders,2074,2074,2074
+Purchasing.PurchaseOrderLines,8367,8367,16734
+Warehouse.StockItems,227,227,227
+Warehouse.StockItemTransactions,236667,236667,253383
+Purchasing.SupplierTransactions,2438,2438,2438

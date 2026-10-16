@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "pages": 4,
+  "format": "IEEEtran conference, two columns, letter, 10 point",
+  "pdf_sha256": "245fa9883c2e957c0fa804c0a6d842705a94d8e70fc5e57d9b77dd337622dec0",
+  "source_sha256": "b2daa9eeb9942a6c94705ecae3fd3623cc8590949104be6730dc80583c2872c9",
+  "bibliography_sha256": "900b15f47acc9dc1ce6c4311a1953968792bfc524b35c0e9c0c7d874f5f81370",
+  "claim_audit_sha256": "bda4cea6b342f24ead94ca02a58f5e87b27558fa17957c80c934fcee22bc6ec5",
+  "automated_control_tests": 14,
+  "generated_numeric_macros": 50,
+  "original_research_code_and_results_unchanged": true,
+  "replication_manifest_sha256": "b575c7e8ad11335a26db57308764a14a784359aae68a024d8fb6785ad1b923ce",
+  "visual_review": "All four final PNG pages inspected; no clipping, overlap, illegible tables or missing glyphs.",
+  "rendered_page_sha256": {
+    "final-1.png": "0b968ed342cbc3f9e702762504c9b65a4c0283471c4787ae8cb96fc96cf51ea3",
+    "final-2.png": "d17622623ac5ce6f3c38be8fef3429afc325edb6a280c7cd1a7ec062820744e7",
+    "final-3.png": "0ef168984418fb2b81e87e363cbcbdbdc8764391b52d7f5cbf04efd11abd8437",
+    "final-4.png": "6dc5f6bd08e9b62c28f610baa66c84d02677d9d1b3100573c4a1e3a7c3496027"
+  },
+  "final_latex_errors": [],
+  "paper_numeric_spot_checks": "passed"
+}

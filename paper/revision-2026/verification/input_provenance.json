@@ -1,0 +1,10 @@
+{
+  "input_archive_name": "kg-bigdata-2026-latex (1).zip",
+  "input_archive_sha256": "4be47093fdd884efccf8d51e217461e80b973249c36e369941d1cbd0c33237a9",
+  "input_main_pdf_sha256": "8a54c2d0221f2f7186105eb4e6f52a741a83cc817c70d56d51461fe18ebafb98",
+  "original_pdf_matches_reviewed_draft": true,
+  "revision_experiment": "manuscript-revision-v1",
+  "original_experiment": "all-datasets-v1",
+  "original_archive_preserved": true,
+  "original_results_not_overwritten": true
+}

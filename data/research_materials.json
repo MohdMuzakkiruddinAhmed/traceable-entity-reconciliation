@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "release_tag": "v1.1.0",
+  "asset_name": "kg-erp-research-materials-v1.1.0.zip",
+  "archive_sha256": "ae08bda50c3f273f1275074a24b51536b5f9ef424258452dfb5397b04cc5f16d",
+  "archive_root": "kg-erp/",
+  "files": [
+    {
+      "path": "data/distribution/BPI2019/base_views.json.gz",
+      "bytes": 3999735,
+      "sha256": "0c85e48a018d8e73579eaea116d4fef9807ec992d43a9fdc66131d3774a0837c"
+    },
+    {
+      "path": "data/distribution/BPI2019/BPI_Challenge_2019.xes.gz",
+      "bytes": 16901365,
+      "sha256": "d2a5ded58deb702a8919f2d94dff115c2c6bb0e7a86ae1a5cc651bb1bbbaaf4e"
+    },
+    {
+      "path": "data/distribution/BPI2019/source_manifest.json.gz",
+      "bytes": 505,
+      "sha256": "233379956e71fbd51875caa65b29f4d87ca95b741b3a2e8a15749b7e681e1aa6"
+    },
+    {
+      "path": "data/distribution/DataCo/base_views.public.json.gz",
+      "bytes": 2347188,
+      "sha256": "e3d586ec0dd0b6340aab5c4af1c7557a2c8ac3aaf2c2c42973fc2d3c44da918d"
+    },
+    {
+      "path": "data/distribution/DataCo/DataCoSupplyChainDataset.public.csv.gz",
+      "bytes": 12901923,
+      "sha256": "17779e384988ab0c32db4c91a7a456453a9107c42320430017a805c0f9064741"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/BPI2019/seed_17/truth.json.gz",
+      "bytes": 68828,
+      "sha256": "39dcee3f3ff07e892febb984d74acf45dafbb971955ef454709c5c2a7d8ad80c"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/BPI2019/seed_29/truth.json.gz",
+      "bytes": 68801,
+      "sha256": "b12f46a6f58ce4505c7aa32df6874b32821a1541017997fd4d195a89d65f386b"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/BPI2019/seed_43/truth.json.gz",
+      "bytes": 68731,
+      "sha256": "f451597a10687948b4341809dd1573b61f80c905b74bc9783e8b2af8a8a8281c"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/DataCo/seed_17/truth.json.gz",
+      "bytes": 75666,
+      "sha256": "e28a0f00736667a311761d1e6e66bfc9e468a8a93aeb50cd3d736537166cf541"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/DataCo/seed_29/truth.json.gz",
+      "bytes": 75775,
+      "sha256": "b0d69d1ddca563659ac91d604f7bfff3cfebee407f8282e13835828fa1040bb8"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/DataCo/seed_43/truth.json.gz",
+      "bytes": 75680,
+      "sha256": "7cc113f87b3dbfc59e3dbb7ddc13a80fa0e8c45fb9d51a3cc18af77220c2b8b8"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/Olist/seed_17/truth.json.gz",
+      "bytes": 198517,
+      "sha256": "163ca38187ebebfee99f9db68795967736aeb45aa41108be95e783150b2527a9"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/Olist/seed_29/truth.json.gz",
+      "bytes": 198499,
+      "sha256": "322d33956b96c3f0cf1294f5e507cceadce9e703256a17cfbeedee16ed6a11f0"
+    },
+    {
+      "path": "data/distribution/evaluator/expanded/Olist/seed_43/truth.json.gz",
+      "bytes": 198550,
+      "sha256": "8e8bf9aecc0e4a16cf0edf550d25d497bda39bd3a9811c91a13d6a7cb41e39d4"
+    },
+    {
+      "path": "data/distribution/evaluator/seed_17/truth.json.gz",
+      "bytes": 514645,
+      "sha256": "09a11e9385cbbff9b27fe265b41371b4e5ce6215ca5f28b72083ac04c7b6d8af"
+    },
+    {
+      "path": "data/distribution/evaluator/seed_29/truth.json.gz",
+      "bytes": 514718,
+      "sha256": "08518d65d5a8fd0aeb05662512906f6425e790ad7df573e60cb48df05e57b3be"
+    },
+    {
+      "path": "data/distribution/evaluator/seed_43/truth.json.gz",
+      "bytes": 515000,
+      "sha256": "7495f85f23d7d2c9a70a8eb8f3bce79d6e4be00cb5a423628faf5b8e74cbad1a"
+    },
+    {
+      "path": "data/distribution/Olist/base_views.json.gz",
+      "bytes": 507081,
+      "sha256": "537faa627b1886a91aff4328327e8bf01e42237be705750c9202cd3e1c3edc7f"
+    },
+    {
+      "path": "data/distribution/Olist/base_views_minimal_profile_v1.json.gz",
+      "bytes": 498436,
+      "sha256": "dcb4c3d41facf7209dfb755fb8ad20a56ce5f089faed70a42501728dd8956b4b"
+    },
+    {
+      "path": "data/distribution/Olist/olist-v2.public.zip",
+      "bytes": 42695119,
+      "sha256": "d172425b5641cd633e5fe29055fbee479097b9f87f1b8014c8f894eea2d22147"
+    },
+    {
+      "path": "data/distribution/Olist/source_manifest.json.gz",
+      "bytes": 410,
+      "sha256": "85db9cf5ca035d844144d1cf82c8de7de77ddf3384ebcf0bc8f58e5eefa3a836"
+    },
+    {
+      "path": "data/distribution/Olist/view_adapter_amendment.json.gz",
+      "bytes": 409,
+      "sha256": "2cd3be311df444388c8e24650817b715b123c70dc670f513ab3992b5a609036b"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_17/graph.pkl.gz",
+      "bytes": 768699,
+      "sha256": "19b353ab73236e89965ffa7fea9da9d0fe4c205429c9d499cc3c613fd547af61"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_17/records.json.gz",
+      "bytes": 18955,
+      "sha256": "a2563975c281a823820fb72e4a25f823535ebb5cc9e9da697344269efc7574e1"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_29/graph.pkl.gz",
+      "bytes": 768784,
+      "sha256": "90578eeb6ac475d5777797dc3316252b397df1f27040e19c04d198d284e01bde"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_29/records.json.gz",
+      "bytes": 19004,
+      "sha256": "01792ac07bc353e2bcf36112ec3b0008e7d2dbec55fd230f1fa0dba97e98a285"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_43/graph.pkl.gz",
+      "bytes": 768932,
+      "sha256": "2ad5f8674a023eee02fa771bacc4e9e09e05b31adb1f1e45ef98c57108098f72"
+    },
+    {
+      "path": "data/distribution/WWI/generated/seed_43/records.json.gz",
+      "bytes": 19005,
+      "sha256": "adf0a6f35a63372644e3d1ec1456fbbee46d8dbbe4ce86f6fcdf3cea2e41d19f"
+    },
+    {
+      "path": "data/distribution/WWI/generated/source_graph.pkl.gz",
+      "bytes": 8671772,
+      "sha256": "412ecf34ff2cd81c0ee8be1295e4821269151fa24e7e05b3462236eff38aa34f"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Purchasing.PurchaseOrderLines.json.gz",
+      "bytes": 145327,
+      "sha256": "982bf5ad4fda611f3cb79141404a7598b49827e269a2be982d2b0ce5dd3b1af6"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Purchasing.PurchaseOrders.json.gz",
+      "bytes": 29481,
+      "sha256": "92bc5e7eb489e8cf0388f9b1a25a5ed30a7abbf34c538928426183f2fa46f112"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Purchasing.Suppliers.json.gz",
+      "bytes": 2441,
+      "sha256": "8aa2d425b095e4dfc9c7a93dbce2d2b5fb1d7dbf78c7bf3f2f415a1de0de1433"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Purchasing.SupplierTransactions.json.gz",
+      "bytes": 74234,
+      "sha256": "8c34cb2e93edfea7d187203339591d47f620e8cfa160f47a91845a09892a062d"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Warehouse.StockItems.json.gz",
+      "bytes": 7477,
+      "sha256": "7adb64dccd8f9013acf41acad812ef6853b809e71f6e6a478873fa8a46a4f9b2"
+    },
+    {
+      "path": "data/distribution/WWI/staged/Warehouse.StockItemTransactions.json.gz",
+      "bytes": 2915774,
+      "sha256": "36c4e425a9c218562ac01a2250c00ce7b565e204547fb9cc4c1105d926faeb0b"
+    },
+    {
+      "path": "data/distribution/WWI/WideWorldImporters-Standard.bak.gz",
+      "bytes": 115930913,
+      "sha256": "edfe5074f530982163452ceab1570e26fe30f6657cb03dcf35a3431d7c362ea9"
+    },
+    {
+      "path": "data/raw/models/all-MiniLM-L6-v2/config.json",
+      "bytes": 612,
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+    },
+    {
+      "path": "data/raw/models/all-MiniLM-L6-v2/model_quint8_avx2.onnx",
+      "bytes": 23046789,
+      "sha256": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21"
+    },
+    {
+      "path": "data/raw/models/all-MiniLM-L6-v2/README.md",
+      "bytes": 10502,
+      "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+    },
+    {
+      "path": "data/raw/models/all-MiniLM-L6-v2/tokenizer.json",
+      "bytes": 466247,
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+    },
+    {
+      "path": "data/raw/models/all-MiniLM-L6-v2/tokenizer_config.json",
+      "bytes": 350,
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+    },
+    {
+      "path": "results/all-datasets-v1/BPI2019/seed_17/frozen_models.joblib",
+      "bytes": 33572034,
+      "sha256": "b3c484e32f966bbd744b5ff5a5aa3356826f1b3b34f6de91a0442fb4a00ee615"
+    },
+    {
+      "path": "results/all-datasets-v1/BPI2019/seed_29/frozen_models.joblib",
+      "bytes": 30476914,
+      "sha256": "2b2032aae5a1e717365b564f7906771775790dc258c2c61c8dd89ce956e266b8"
+    },
+    {
+      "path": "results/all-datasets-v1/BPI2019/seed_43/frozen_models.joblib",
+      "bytes": 38750018,
+      "sha256": "4138d5b67525daa7ac3f7905fcd89cf0f607bd6a464a40268fbf9901d78ce54d"
+    },
+    {
+      "path": "results/all-datasets-v1/DataCo/seed_17/frozen_models.joblib",
+      "bytes": 53353058,
+      "sha256": "e71ec4902079ddeb7eb7470775f1d4373f33a785f805b1acd9a020ebebad7683"
+    },
+    {
+      "path": "results/all-datasets-v1/DataCo/seed_29/frozen_models.joblib",
+      "bytes": 33687522,
+      "sha256": "2337bd429a6e4914fa5a08f85a3ab7357a3b389dfac183c468276301fa9258b6"
+    },
+    {
+      "path": "results/all-datasets-v1/DataCo/seed_43/frozen_models.joblib",
+      "bytes": 31538882,
+      "sha256": "660d81f4f29e5fd7962c8405c256351388a6ecbf94cd27625e5b33abb12a88fd"
+    },
+    {
+      "path": "results/all-datasets-v1/Olist/seed_17/frozen_models.joblib",
+      "bytes": 29326242,
+      "sha256": "3bc1e61691321855df62a33cc110b4b4eed11ac0be5f201756980c00a6f9ac56"
+    },
+    {
+      "path": "results/all-datasets-v1/Olist/seed_29/frozen_models.joblib",
+      "bytes": 10022466,
+      "sha256": "4904fc4c8ae3cbc6e838d7f02fd709f766f81b31da96184c6d7f2a214a3f823c"
+    },
+    {
+      "path": "results/all-datasets-v1/Olist/seed_43/frozen_models.joblib",
+      "bytes": 29233282,
+      "sha256": "8de3c39105591055f90b45e888d73a8f3fa49fbbb6821b84aba8de47a84cad8b"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_large/seed_17/frozen_models.joblib",
+      "bytes": 37053102,
+      "sha256": "5ff0e2417c8206e5a7ef7a67c052fcac157e14bee7fb1f8b14efa2fa49bf81b7"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_large/seed_29/frozen_models.joblib",
+      "bytes": 33196286,
+      "sha256": "08f3000da22e8e36ba72bddefd53b45ec0f7cecc59d55eca200bb8e0a076c209"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_large/seed_43/frozen_models.joblib",
+      "bytes": 65296302,
+      "sha256": "bf78fca4ba93fa0133d4afcad70149b59222c310cf65c92cfb84870990ee2da0"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_medium/seed_17/frozen_models.joblib",
+      "bytes": 2949256,
+      "sha256": "d4f424197d886db93de9d8199896b29acc5c97f1a056ea22d300df161ee36a9d"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_medium/seed_29/frozen_models.joblib",
+      "bytes": 2926216,
+      "sha256": "48b92653559e9a45d655ddb057aec0e067d50d2d434a4932ec6ef77a5c17c6a7"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_medium/seed_43/frozen_models.joblib",
+      "bytes": 2918376,
+      "sha256": "193ef81165a094363e5ed1a3d504e6b2d791a907d882c4de28939f41654c80e1"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_small/seed_17/frozen_models.joblib",
+      "bytes": 2553880,
+      "sha256": "a510d51f7a1e6009d7ba9214f54cca61cb8ffdc7ac738abbd0df9dbc7668ddb8"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_small/seed_29/frozen_models.joblib",
+      "bytes": 5267800,
+      "sha256": "3b2a3c0b80cacc91b79d84f96d6e7539338cd866f1e1050bc72fca50cf0c2c45"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/20cc_small/seed_43/frozen_models.joblib",
+      "bytes": 669816,
+      "sha256": "46161abc775fe26a1a7577b32503eed422d6c57a5d902fa6191210e9f18236fb"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_large/seed_17/frozen_models.joblib",
+      "bytes": 68513534,
+      "sha256": "b15b44c731234705a1d8ee57c277e59941395a6171f601bfc992f16c6f32c68c"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_large/seed_29/frozen_models.joblib",
+      "bytes": 68573534,
+      "sha256": "bd2015b4bfde5e375e6234f5fb022667e4715811a10bf2997c46317473c913c2"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_large/seed_43/frozen_models.joblib",
+      "bytes": 68749854,
+      "sha256": "23090774cd96ccc70d51e03638be747b634857f33d001a0371d1c40696131d0f"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_medium/seed_17/frozen_models.joblib",
+      "bytes": 12758968,
+      "sha256": "fbc977983ba3ea33137f382739625a0a29803d3fdd7c73832995b66b0c34864d"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_medium/seed_29/frozen_models.joblib",
+      "bytes": 12976728,
+      "sha256": "ef83b36f3b03f08080cb0a4d34ff8cac95d10261c65839a971b3558cbd59904e"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_medium/seed_43/frozen_models.joblib",
+      "bytes": 12819448,
+      "sha256": "3074570362256c1a58808bcb1f0e2fd6dc0c54057e850ef60fbf5ffbe6cace2a"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_small/seed_17/frozen_models.joblib",
+      "bytes": 10082190,
+      "sha256": "af75e6676cc15e76cd06ba641b77af5ab00dc0666c3de5f3611ceb4a4e3d2cb1"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_small/seed_29/frozen_models.joblib",
+      "bytes": 5339320,
+      "sha256": "547ff9a7f483744d095561c75b01190e2619e39305ceab5d6cabceaa52a14350"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/50cc_small/seed_43/frozen_models.joblib",
+      "bytes": 5459160,
+      "sha256": "473c14c50ab2e774802004ca6dfa9bc4f2710542242b413d4a50251acb55c34e"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_large/seed_17/frozen_models.joblib",
+      "bytes": 56843390,
+      "sha256": "13b5a04918b6407a9ca9bbb1b4010cb3da88f62f014c036c05ae0dec23ba2e1f"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_large/seed_29/frozen_models.joblib",
+      "bytes": 70398270,
+      "sha256": "c7aaf486792a0604742a709d98b510a031f0bcac176c5ddc8fd59f772d1dbdf0"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_large/seed_43/frozen_models.joblib",
+      "bytes": 85519070,
+      "sha256": "82b15fe98aa8ac222aa14b51b69258191295d65b6bb5ada0ca1d9e5e941fc3a9"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_medium/seed_17/frozen_models.joblib",
+      "bytes": 25237438,
+      "sha256": "4ccd09906797eb94258de142edbd574f6815a4312a4508d9dcf6d3e566487912"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_medium/seed_29/frozen_models.joblib",
+      "bytes": 25212958,
+      "sha256": "168f3013b4bd301ad079eaf5832b42436d8838bede39e15ca5ffd6c6501834bb"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_medium/seed_43/frozen_models.joblib",
+      "bytes": 25303358,
+      "sha256": "36d9f856a6dcc8f38ef6292c8ecd1a40a6facdfa1c57dd1aa94ff11d985c6e62"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_small/seed_17/frozen_models.joblib",
+      "bytes": 7067486,
+      "sha256": "6c649ce5d1beecaa0511634ad663f71057fbda09d0466e7f08e2d52a1de2bad2"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_small/seed_29/frozen_models.joblib",
+      "bytes": 7042366,
+      "sha256": "820211656db5652c98b9c8dc4f368ab609e1c9c3d43a427b964b1947f9d60030"
+    },
+    {
+      "path": "results/all-datasets-v1/WDC/80cc_small/seed_43/frozen_models.joblib",
+      "bytes": 7130366,
+      "sha256": "b1ea8d24108a9f083031c6c1b3e761a40dc27abf6de420468830aa664a95db6b"
+    },
+    {
+      "path": "results/all-datasets-v1/WWI/seed_17/frozen_models.joblib",
+      "bytes": 1680684,
+      "sha256": "ca50c4d81cc558bb34376eb6bb1908291a570a34d2191d6caa2092a148be28e4"
+    },
+    {
+      "path": "results/all-datasets-v1/WWI/seed_29/frozen_models.joblib",
+      "bytes": 123068,
+      "sha256": "7bcab1eafe7da90aa92d74e869803b2faa586373e0ebf6978134b4b6e7c221a9"
+    },
+    {
+      "path": "results/all-datasets-v1/WWI/seed_43/frozen_models.joblib",
+      "bytes": 2140060,
+      "sha256": "49975032ebe3e575a0d1fcdec29f51828077f168e7916f5895b3ed510828fd9b"
+    },
+    {
+      "path": "results/improvements-v1/wdc/frozen_model.joblib",
+      "bytes": 685949,
+      "sha256": "d9479c888ee122219e85fb899a3c736f0384ae0c5ae3e86576dcc04f31ac8b4b"
+    },
+    {
+      "path": "results/improvements-v1/wwi/seed_17/frozen_models.joblib",
+      "bytes": 119046,
+      "sha256": "317929b0cc97b8038c97b93a2b87a78e4c52f9dfed450e296e546cad6ffe36cd"
+    },
+    {
+      "path": "results/improvements-v1/wwi/seed_29/frozen_models.joblib",
+      "bytes": 115334,
+      "sha256": "65228ae1a37abe40aad5e70614625d901623ad9d4393682d7ccd9be55b1bf933"
+    },
+    {
+      "path": "results/improvements-v1/wwi/seed_43/frozen_models.joblib",
+      "bytes": 113366,
+      "sha256": "14b820408b14297b4d10413082875d84dc215b634a03143087a036374a21a136"
+    },
+    {
+      "path": "results/improvements-v2/wdc/frozen_model.joblib",
+      "bytes": 685949,
+      "sha256": "d9479c888ee122219e85fb899a3c736f0384ae0c5ae3e86576dcc04f31ac8b4b"
+    },
+    {
+      "path": "results/improvements-v2/wwi/seed_17/frozen_models.joblib",
+      "bytes": 119070,
+      "sha256": "47a95414becf3a554fd21e9acccb69e740c4b38222df0e92131e8b8ff3faec11"
+    },
+    {
+      "path": "results/improvements-v2/wwi/seed_29/frozen_models.joblib",
+      "bytes": 115358,
+      "sha256": "bb2faa5769285c236a69d1b9ca6dfd7f91ee3b6daea80ba1a1ff69db58b8d852"
+    },
+    {
+      "path": "results/improvements-v2/wwi/seed_43/frozen_models.joblib",
+      "bytes": 113390,
+      "sha256": "007f8d1b3ea8d092f087e8f7d7c528b9539901bf40b783e348467d314f147237"
+    },
+    {
+      "path": "results/initial-core-v1/e2/seed_17/frozen_models.joblib",
+      "bytes": 112953,
+      "sha256": "55364824a35319d5a21db584221d2fd1b982d24791c0e3f8f69c778224cd2563"
+    },
+    {
+      "path": "results/initial-core-v1/e2/seed_29/frozen_models.joblib",
+      "bytes": 110089,
+      "sha256": "eb66a9e592480e17599545baa23f33ed6f6669c312d5d1a2a2d29bc4f85773f1"
+    },
+    {
+      "path": "results/initial-core-v1/e2/seed_43/frozen_models.joblib",
+      "bytes": 107385,
+      "sha256": "aabeb93e089d4492de07928b0c0e65e5fc02919e402dbb5c8354bcd3561e22f7"
+    },
+    {
+      "path": "results/initial-core-v2/e2/seed_17/frozen_models.joblib",
+      "bytes": 112953,
+      "sha256": "55364824a35319d5a21db584221d2fd1b982d24791c0e3f8f69c778224cd2563"
+    },
+    {
+      "path": "results/initial-core-v2/e2/seed_29/frozen_models.joblib",
+      "bytes": 110089,
+      "sha256": "eb66a9e592480e17599545baa23f33ed6f6669c312d5d1a2a2d29bc4f85773f1"
+    },
+    {
+      "path": "results/initial-core-v2/e2/seed_43/frozen_models.joblib",
+      "bytes": 107385,
+      "sha256": "aabeb93e089d4492de07928b0c0e65e5fc02919e402dbb5c8354bcd3561e22f7"
+    },
+    {
+      "path": "results/initial-core-v2/e2/wdc/frozen_attribute_model.joblib",
+      "bytes": 685228,
+      "sha256": "d78efcf21d6a41b25e695b9aab993bbaf14b167ad6563b3fe23bce003a3a9da1"
+    },
+    {
+      "path": "results/initial-core-v3/e2/seed_17/frozen_models.joblib",
+      "bytes": 113497,
+      "sha256": "56b9a6ff8446887f021a10aa600bbb88d65a6bc6501372cf372ba4ce54945dc8"
+    },
+    {
+      "path": "results/initial-core-v3/e2/seed_29/frozen_models.joblib",
+      "bytes": 109785,
+      "sha256": "0cbeaf31e290c51bfae6788aa83ada17825863c296e9878a37c74ae0195ac14e"
+    },
+    {
+      "path": "results/initial-core-v3/e2/seed_43/frozen_models.joblib",
+      "bytes": 107833,
+      "sha256": "f3bb8aaf72dcb0db1ab53f7a9128d5253a416559d8d94a98ace20528f60667ec"
+    },
+    {
+      "path": "results/initial-core-v3/e2/wdc/frozen_attribute_model.joblib",
+      "bytes": 685228,
+      "sha256": "d78efcf21d6a41b25e695b9aab993bbaf14b167ad6563b3fe23bce003a3a9da1"
+    },
+    {
+      "path": "results/p9-replication-v1/wdc_model.joblib",
+      "bytes": 685228,
+      "sha256": "d78efcf21d6a41b25e695b9aab993bbaf14b167ad6563b3fe23bce003a3a9da1"
+    },
+    {
+      "path": "results/p9-replication-v1/wwi_seed_17.joblib",
+      "bytes": 113497,
+      "sha256": "56b9a6ff8446887f021a10aa600bbb88d65a6bc6501372cf372ba4ce54945dc8"
+    },
+    {
+      "path": "results/p9-replication-v1/wwi_seed_29.joblib",
+      "bytes": 109785,
+      "sha256": "0cbeaf31e290c51bfae6788aa83ada17825863c296e9878a37c74ae0195ac14e"
+    },
+    {
+      "path": "results/p9-replication-v1/wwi_seed_43.joblib",
+      "bytes": 107833,
+      "sha256": "f3bb8aaf72dcb0db1ab53f7a9128d5253a416559d8d94a98ace20528f60667ec"
+    }
+  ],
+  "scope": "Fitted models, pinned encoder assets, permitted lossless data and privacy derivatives. Raw WDC and original sensitive DataCo fields are excluded."
+}

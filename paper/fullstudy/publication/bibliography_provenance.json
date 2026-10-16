@@ -1,0 +1,115 @@
+{
+  "access_date": "2026-10-12",
+  "review": "targeted primary-source positioning; not systematic or exhaustive",
+  "references": [
+    {
+      "bibtex_key": "collective",
+      "primary_url": "https://linqs.org/assets/resources/bhattacharya-tkdd07.pdf",
+      "verification": "Author paper: authors/title and relational-resolution scope checked; journal DOI retained."
+    },
+    {
+      "bibtex_key": "ditto",
+      "primary_url": "https://arxiv.org/abs/2004.00584",
+      "verification": "Authors/title and fine-tuned pair-classification scope checked; related PVLDB DOI verified."
+    },
+    {
+      "bibtex_key": "grapher",
+      "primary_url": "https://researchoutput.csu.edu.au/ws/portalfiles/portal/607879837/603507167_published_article.pdf",
+      "verification": "Author repository published article: authors/title and GDD/GNN scope checked."
+    },
+    {
+      "bibtex_key": "wdc",
+      "primary_url": "https://openproceedings.org/2024/conf/edbt/paper-14.pdf",
+      "verification": "Official proceedings PDF: authors/title, benchmark dimensions and pp.22-33/DOI checked."
+    },
+    {
+      "bibtex_key": "lis",
+      "primary_url": "https://2023.eswc-conferences.org/wp-content/uploads/2023/05/paper_Grangel_2023_LIS.pdf",
+      "verification": "Conference author manuscript: exact authors/title and integration scope checked; no unverified page range supplied."
+    },
+    {
+      "bibtex_key": "designscience",
+      "primary_url": "https://aisel.aisnet.org/misq/vol28/iss1/6/",
+      "verification": "Primary journal/repository metadata: authors/title/year; pp.75-105 and DOI retained."
+    },
+    {
+      "bibtex_key": "blocking",
+      "primary_url": "https://arxiv.org/abs/1905.06167",
+      "verification": "Author preprint v4 metadata and blocking/filtering scope checked; cited as arXiv version rather than guessing journal metadata."
+    },
+    {
+      "bibtex_key": "sbert",
+      "primary_url": "https://aclanthology.org/D19-1410/",
+      "verification": "Official ACL authors/title, venue, pages and DOI checked."
+    },
+    {
+      "bibtex_key": "minilm",
+      "primary_url": "https://arxiv.org/abs/2002.10957",
+      "verification": "Author preprint metadata and transformer distillation scope checked; cited as arXiv version."
+    },
+    {
+      "bibtex_key": "modelcard",
+      "primary_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "verification": "Official model card: dimensions, pooling, token limit and license; implemented artifact revision is in experiment config."
+    },
+    {
+      "bibtex_key": "calibration",
+      "primary_url": "https://www.cs.cornell.edu/~alexn/papers/calibration.icml05.crc.rev3.pdf",
+      "verification": "Author paper: authors/title and held-out probability calibration; ICML metadata/DOI retained."
+    },
+    {
+      "bibtex_key": "sklearn",
+      "primary_url": "https://jmlr.org/papers/v12/pedregosa11a.html",
+      "verification": "Primary JMLR: exact authors, title, volume/year and pp.2825-2830 checked."
+    },
+    {
+      "bibtex_key": "wwi",
+      "primary_url": "https://learn.microsoft.com/en-us/sql/samples/wide-world-importers-oltp-install-configure",
+      "verification": "Microsoft official sample installation/source documentation."
+    },
+    {
+      "bibtex_key": "olist",
+      "primary_url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+      "verification": "Official dataset landing; version/license/acquisition supported by saved official Kaggle API metadata (page text unavailable to browser)."
+    },
+    {
+      "bibtex_key": "dataco",
+      "primary_url": "https://data.mendeley.com/datasets/8gx2fvg2k6/5",
+      "verification": "Publisher metadata: 12 March 2019, v5, DOI, CC BY 4.0; exact contributors Fabian Constante, Fernando Silva, Antonio Pereira. Used structured file is acquired from a disclosed mirror."
+    },
+    {
+      "bibtex_key": "bpi",
+      "primary_url": "https://doi.org/10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+      "verification": "Publisher JSON data/manifests/bpi2019_publisher.json: author/title/DOI/license and MD5 checked; browser API access unavailable."
+    },
+    {
+      "bibtex_key": "prov",
+      "primary_url": "https://www.w3.org/TR/prov-o/",
+      "verification": "Official W3C Recommendation metadata and provenance scope checked; no implementation conformance claim."
+    },
+    {
+      "bibtex_key": "wdcsite",
+      "primary_url": "https://webdatacommons.org/largescaleproductcorpus/wdc-products/index.html",
+      "verification": "Official archives/configuration dimensions checked; publisher whole-corpus counts distinguished from used pairwise files."
+    }
+  ],
+  "policy_sources": [
+    {
+      "url": "https://cci.drexel.edu/kgbigdata/2026/",
+      "finding": "10-page long paper; IEEE two column; Oct23 deadline; registration after acceptance."
+    },
+    {
+      "url": "https://wi-lab.com/cyberchair/2026/bigdata26/scripts/submit.php?subarea=S05&undisplay_detail=1&wh=/cyberchair/2026/bigdata26/scripts/ws_submit.php",
+      "finding": "10 pages references included; Nov10 AoE conflicting date."
+    },
+    {
+      "url": "https://wi-lab.com/cyberchair/2026/bigdata26/scripts/submitform.php?subarea=S05&submittype=&upload_only=0",
+      "finding": "Author/contact/title/English abstract/1-5 keywords and one PDF upload; no supplement field observed."
+    },
+    {
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "finding": "Disclose AI system, affected sections and level in acknowledgments."
+    }
+  ],
+  "metadata_correction": "New DataCo reference uses publisher contributors rather than mistaken earlier notes."
+}

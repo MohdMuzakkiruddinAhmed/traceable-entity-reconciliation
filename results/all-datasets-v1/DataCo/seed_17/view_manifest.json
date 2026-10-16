@@ -1,0 +1,14 @@
+{
+  "dataset": "DataCo",
+  "eligible_source_groups": 10075,
+  "selected_groups": 1500,
+  "selection": "stable source-key hash before alias perturbation; all eligible Olist repeats, cap for other datasets",
+  "transaction_sample_limit_per_view": 40,
+  "cross_silo_copied_transaction_rows": 0,
+  "group_counts": {
+    "train": 900,
+    "validation": 300,
+    "test": 300
+  },
+  "identity_task": "controlled alias/source-view evaluation"
+}

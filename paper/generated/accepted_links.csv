@@ -1,0 +1,113 @@
+seed,candidate_id,entity_type,label,left_name,right_name,B5_score,context_supported,independent_anchors
+17,add8483a98e9e62b86e14a52,Supplier,1,Gra Design Institute,Graphic Design Institute,0.9999999885099454,True,4
+17,30131d86075f2b6d67c8dd1e,Supplier,1,Consolidated Messenger,Consolidated Messenger,0.9999998670437179,False,0
+17,f12e8d7efab2ab73935c0dc9,StockItem,1,Developer joke mug - inheritance si the OO way to become wealthy (Black),Developer joke mug - inheritance is the OO way to become wealthy (Black),0.9999590313023697,True,4
+17,7880d9293a2702036c2bc88c,StockItem,1,IT joke mug - keyboard not found … press F1 to continue (White),IT joke mug - keyboard not found … press F1 ot continue (White),0.9999524454484181,True,4
+17,f0cbe658b6df81a872ba95dd,StockItem,1,IT joke mug - hardware: part of the computer that can be kicked (Black),IT joke mug - hardware: part of the computer that canb e kicked (Black),0.9999500384497437,True,4
+17,47d4312c81a921dbaf923237,Supplier,1,"Fabrikam, In.c",Fab Inc.,0.9999358035728818,True,3
+17,3265d415f7b36fef0c5ada0b,StockItem,1,Developer joke mug - old C developers enver die (White),Developer joke mug - old C developers never die (White),0.9998330158887045,True,4
+17,4611813279b2fe1bd10d00fe,StockItem,1,Dev joke mug - that's a hardware problem (Black),Developer joke mug - that's a hardware problem (Black),0.9997828269633806,True,4
+17,00f60d5f947d5b3777f532d1,StockItem,1,Developer joke mug - understanding recursion requires understanding recursion (White),Developer joke mug - understanding recursion requires understanding recursion (White),0.9990508640479302,True,3
+17,12630161489751553ea9f3d2,StockItem,1,IT joke mug - hardware: part of the computer that can be kicked (White),IT joke mug - hardware: part of the computer that can be kicked (White),0.9980469196286131,True,3
+17,5e3918482fe8203ef11d7d07,StockItem,1,Developer joke mug - when your hammer is C++ (White),Developer joke mug - when your hammer is C++ (White),0.9980469196286131,True,3
+17,e9e1e66b256644fbdb7c5fda,StockItem,1,DBA joke mug - daaaaaa-ta (White),DBA joke mug - daaaaaa-ta (White),0.9980469196286131,True,3
+17,159809a60b718bfde0628d34,StockItem,1,USB missile launcher (Green),USB missile lanucher (Green),0.9966872876838442,False,0
+17,007be1287260f65ea2a86962,StockItem,1,Ride on big wheel monster truck (Black) 1/12 scale,Ride on big wheel monster truck (Black) 1/12 scale,0.9943655154382888,False,0
+17,2fb2142d11f83535ea7cab1f,StockItem,1,32 mm Anti static bubble wrap (Blue) 20m,32 mm Anti static bubble wrap (Blue) 20m,0.9926890717166479,False,0
+17,a5fb0c179c589e25fdd76514,StockItem,1,3 kg Courier post bag (White) 300x190x95mm,3 kg Courier post bag (White) 300x190x95mm,0.9926890717166479,False,0
+17,917aa3ad24401c0431017ded,StockItem,1,20 mm Anti static bubble wrap (Blue )20m,20 mm Anti static bubble wrap (Blue) 20m,0.9926890717166479,False,0
+17,5b38d946b9293e6066e2f469,StockItem,0,"""The Gu"" red shirt XLM tag t-shirt (Black) 3XS","""The Gu"" red shirt XML tag t-shirt (Black) XXS",0.9910989712466162,True,3
+17,0896c76a5dce1ffc4a4e7031,StockItem,1,USB food flash drive - pizza slice,USB food flash drive - pizza slice,0.991095730664043,False,0
+17,426aceb20b32499ccd0624c2,StockItem,1,10 mm Double sided bubble wrap 20m,10 mm Double sided bubble wrap 20m,0.991095730664043,False,0
+17,12e5ce1bf81c256d120195b5,StockItem,1,RC toy sedan car with remote control (Red) 1/50 scale,RC toy sedan car with remote control (Red) 1/50 scale,0.991095730664043,False,0
+17,537ab2e61b9e91e0b93f5b1c,StockItem,1,Black and orange handle with care despatch tape 48mmx100m,Black and orange handle with care despatch tape 48mmx100m,0.991095730664043,False,0
+17,afb5753b9699ce39915bc026,StockItem,1,DBA joke mug - two types of DBAs (White),DBA joke mug - two types of DBAs (White),0.991095730664043,False,0
+17,28d2d0ce7014cd7c6123ec23,StockItem,1,Sup action jacket (Blue) 4XL,Sup action jacket (Blue) 4XL,0.991095730664043,False,0
+17,7f275cec600e03830bd440d7,StockItem,1,Black and orange this way up despatch tape 48mmx100m,Black and orange this way up despatch tape 48mmx100m,0.991095730664043,False,0
+17,9ec4084a4f0109dc59540c29,StockItem,1,Large sized bubblewrap roll 50m,Large sized bubblewrap roll 50m,0.991095730664043,False,0
+17,9ea4f241bc6f77c8c6da26ec,StockItem,1,Shipping carton (Brown) 413x285x187mm,Shipping carotn (Brown) 413x285x187mm,0.9842965481146402,False,0
+17,4fbe5d939a2443f264322abb,StockItem,1,Furry gorilla with big eyes slippers (Black) M,Fur gorilla with big eyes slippers (Black) M,0.9839325488234447,True,3
+17,7f61e3147ad230e56780ffab,StockItem,0,"""The Gu"" red shirt XML tag t-shirt (Black) L","""The Gu"" red shirt XML tag t-shirt (Black )XL",0.982214832149672,False,1
+17,551f100d68363e2e9c9bb0eb,StockItem,0,"""The Gu"" red shirt XML tag t-shirt (Black) XL","""The Gu"" red shirt XML tag t-shirt (Black) L",0.982214832149672,False,1
+17,ebe6363973594b0cf232c40a,StockItem,1,"""The Gu"" red shirt XML tag t-hsirt (White) 7XL","""The Gu"" red shirt XML tag t-shirt (White) 7XL",0.9792625292098894,True,3
+17,e858eea6e62e6266af2e1e24,StockItem,1,Ani with big feet slippers (Brown) L,Animal with big feet slippers (Brown) L,0.9777203866908675,False,0
+17,2b6f89b8e4f665c59c46ad6f,StockItem,0,"""Th Gu"" red shirt XML tag t-shirt (Black) XXS","""The Gu"" red shirt XML tag t-shirt (Black) 3XS",0.9738311757053019,False,0
+17,cd0f044dc03e1dd9068befb6,StockItem,1,Cle packaging tape 48mmx100m,Clear packaging tape 48mmx100m,0.9729317341796716,False,0
+17,7563a6f94c2daf11298052b6,StockItem,1,Din battery-powered slippers (Green) XL,Dinosaur battery-powered slippers (Green) XL,0.9712266844977794,True,3
+17,cc79f4c2605cfdd076838b8c,StockItem,1,Shipping carton (Brown) 480x270x302mm,Shipping carton (Brown) 480x270x320mm,0.9712189187768362,False,0
+17,93a397fa73b5ee7dfb802b3c,StockItem,1,Shipping carton (Brown) 305x305x305mm,Shi carton (Brown) 305x305x305mm,0.9649514190259353,False,0
+29,b2d448671c546489460081cc,Supplier,1,"Fabrikam, Inc.","Fabrikam, Inc.",0.9999991898041865,True,3
+29,74f68c37c9939fdccd6ae625,Supplier,1,Consolidated Messenger,Consolidated Messenger,0.9999987977062008,False,0
+29,dbf2bd0c081d979d6407a18a,Supplier,1,Graphic DesignI nstitute,Gra DesignI nstitute,0.9999940439811409,True,5
+29,98c690c2df21266964cf1c8c,StockItem,1,Developer joke mug - that's a hardware problem (Blcak),Developer joke mug - that's a hardware problem (Black),0.9985170205871409,True,5
+29,b108087a3102306dfee84a05,StockItem,1,IT joke mug - keyboard not found … press F1 to continue (Wihte),IT joke mug - keyboard not found … press F1 to continue (White),0.9979671458011017,True,5
+29,1b1cee3f346b1e580af59627,StockItem,1,Developer joke mug - old C developers never die (White),Developer joke mug - old C developers never die (White),0.9979151915011328,True,4
+29,b0b3cdde756a4f582d85e379,StockItem,1,DBA joke mug - daaaaaa-ta (White),DBA joke mug - daaaaaa-ta (White),0.9979041368450404,True,4
+29,f4860c6f7b2cfb5556c28cc9,StockItem,1,DBA joke mug - two types of DBAs (White),DBA joke mug - two types of DBAs (White),0.9979041368450404,True,4
+29,dd29fc942d27bad45a3b392c,StockItem,1,IT joke mug - hardware: part of the computer that can be kicked (Black),IT joke mug - hardware: part of the computer that can be kicked (Black),0.9977037045125868,True,4
+29,9e50bb4abd2685edf39fc6de,StockItem,1,Dev joke mug - inheritance is the OO way to become wealthy (Black),Dev joke mug - inheritance is the OO way to become wealthy (Black),0.9977037045125868,True,4
+29,d63cf90a307444707bda86aa,StockItem,1,Developer joke mug - hwen your hammer is C++ (White),Developer joke mug - when your hammer is C++ (White),0.9966459669545527,True,5
+29,d7502bcb0ec48188c94b75aa,StockItem,1,USB missile launcher (Green),USB missile launcher (Green),0.9964201929520463,False,0
+29,39d18c09e4c949aa9ddf46e6,StockItem,1,Rid on big wheel monster truck (Black) 1/12 scale,Rid on big wheel monster truck (Black) 1/12 scale,0.9961469244078349,False,0
+29,3b6f11d784884f7fbfad7ba4,StockItem,1,Clear packaging tape 48mmx100m,Clear packaging tape 48mmx100m,0.9960550340091159,False,0
+29,2b5ebd308f92202d727fc3a6,StockItem,1,IT joke mug - hardware: part of the computer that can be kicked (White),IT joke mug - hardware: part of the computer that can be kicked (White),0.9960550340091159,False,0
+29,1e7df46cac6e214967ab8b53,StockItem,1,Developer joke mug - understanding recursion requires understanding recursion (White),Developer joke mug - understanding recursion requires understanding recursion (White),0.9960550340091159,False,0
+29,da7bd399c5dc1138357fa116,StockItem,1,10 mm Double sided bubble wrap 20m,10 mm Double sided bubble wrap 20m,0.9957540094331165,False,0
+29,3d945a7de9ab9468c0880d11,StockItem,1,USB food flash drive - pizza slice,USB food flash drive - pizza slice,0.9957540094331165,False,0
+29,429d4e87284b8e4523f82647,StockItem,1,Shi carton (Brown) 500x310x310mm,Shi carton (Brown) 500x310x310mm,0.9957540094331165,False,0
+29,acc271b13e87683919259f07,StockItem,1,Permanent marker red 5mm nib (Red )5mm,Permanent marker red 5mm nib (Red) 5mm,0.9957540094331165,False,0
+29,60c9d9647232ff5d89b24bed,StockItem,1,Shipping carton (Brown) 356x229x229mm,Shipping carton (Brown) 356x229x229mm,0.9957540094331165,False,0
+29,2d83dad5f5cb419b5462ddc9,StockItem,1,Ogr battery-powered slippers (Green) S,Ogre battery-powered slippers (Green) S,0.9948213146400365,False,0
+29,bcd31937c4edf3ba5ddd2d2c,StockItem,1,Dinosaur battery-powered slippers (Green) XL,Dinosaur battery-powered slippers (Green) XL,0.9942835629470567,True,3
+29,8fb88e7e7570e0bb04654c2a,StockItem,1,Fur gorilla with big eyes slippers (Black) M,Fur groilla with big eyes slippers (Black) M,0.9937082108585968,True,4
+29,4cf089d0ed02532cc0da05ac,StockItem,1,Black and oragne handle with care despatch tape 48mmx100m,Black and orange handle with care despatch tape 48mmx100m,0.9934870601596694,False,0
+29,0804096dd15fa495d3f9c5d1,StockItem,1,"""Th Gu"" red shirt XML tag t-shirt (Black) XL","""The Gu"" red shirt XML tag t-shirt (Black) XL",0.9934639530779545,True,4
+29,29ab95da77eeba89af3aee17,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (White) XS","""Th Gu"" red shirt XML tag t-shirt (White) XS",0.9933061399800749,True,4
+29,c4d2de51382ac6b7facfd259,StockItem,1,Ani with big feet slippers (Brown) L,Ani with big feet slippers (Brown) L,0.9929497978182826,True,3
+29,a127e32df3f4c8955cc705b5,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (Black) XSX","""The Gu"" red shirt XML tag t-shirt (Black) XXS",0.9922930045938461,False,0
+29,2356bf02bc835cc410e0114e,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (Black) 3XS","""The Gu"" red shirt XML tag t-shirt (Black) 3XS",0.9922381054696182,True,3
+29,e10652e264bc6a6e3962bda3,StockItem,1,Lar sized bubblewrap roll 50m,Large sized bubblewrap roll 50m,0.9903761257854496,False,0
+29,0d4731300daddbe39389ea53,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (Blakc) L","""The Gu"" red shirt XML tag t-shirt (Black) L",0.9897302035698763,False,0
+29,f8ead76565a5db975074cb3d,StockItem,1,3 kgC ourier post bag (White) 300x190x95mm,3 kg Courier post bag (White) 300x190x95mm,0.9838631921775512,False,0
+29,739626cfc3f7d8295cde6f99,StockItem,1,Shi carton (Brown) 480x27x0320mm,Shi carton (Brown) 480x270x320mm,0.9813663729312913,False,0
+29,0805fadf8f7576eafafe14f2,StockItem,1,20 mm Anti static bubble warp (Blue) 20m,20 mm Anti statci bubble wrap (Blue) 20m,0.9810029020214724,False,0
+29,21446fc94cb869403de3b797,StockItem,1,RC big wheel monster truck with remote control (Black) 1/50 scale,RC big whele monster truck with remote control (Black) 1/50 scale,0.9794091663048392,False,0
+29,c7fb7d99389e6f43a778af1f,StockItem,1,RC toy sedan car with remote control (Yellow) 1/50 scale,RC to ysedan car with remote control (Yellow) 1/50 scale,0.9785686256259368,False,0
+29,c6257a4dd97d1f881c743cd6,StockItem,1,32 mm nAti static bubble wrap (Blue) 20m,32 mm Anti static bubble wrap (Blue) 20m,0.9774709358016377,False,0
+29,401b62ef40e4d9c6742bd5a4,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (Black) S","""The Gu"" red shirt XML tag -tshirt (Black) S",0.9700047683208441,False,0
+29,9af44534e3bcfce223ac80af,StockItem,1,Shi carton (Brown) 305x305x305mm,Shipping carton (Brown) 305x305x305mm,0.9697995396005374,False,0
+29,298b72753119a0fac22b7941,StockItem,1,RC toy sedan car with remote control (Red) 1/50 scale,RC toy sedan car with remote control (eRd) 1/50 scale,0.9696937163196878,False,0
+29,51d63a3258d81f0ad3e62b83,StockItem,1,Shi carton (Brown) 413x285x187mm,Shipping carton (Brown) 413x285x187mm,0.9680727271188232,False,0
+29,82d049bc2bbe08629d4eff7d,StockItem,1,Black and orange this way up despatch tape 48mmx100m,Black and orange this way up despatch tap e48mmx100m,0.9650716614740105,False,0
+29,bb9209d516b443fdefdca930,StockItem,1,"""Th Gu"" red shirt XML tag t-shirt (White) 7XL","""The Gu"" red shirtX ML tag t-shirt (White) 7XL",0.9597735139187581,True,4
+43,ca357f36e04d857a1e0a3321,Supplier,1,Gr aDesign Institute,Grahpic Design Institute,0.9994824513021625,True,2
+43,eee118e05811722115c4320a,StockItem,1,USB missile launcher (Green),USB missile launcher (Green),0.9974137394174519,False,0
+43,30032de4bf6396398fb91a10,StockItem,1,Dinosaur battery-powered slippers (Green) XL,Dinosaur battery-powered slippers (Green) XL,0.9974137394174519,False,0
+43,758c57c309a5f14a14ce3f4f,Supplier,1,Consloidated Messenger,Con Messenger,0.9972908599535258,False,0
+43,300f4555f51c08c7708581f3,StockItem,1,Shi carton (Brown) 413x285x187mm,Shi carton (Brown) 413x285x187mm,0.9969736568609833,False,0
+43,668d89c679e285c9b10e4f91,StockItem,1,Furry gorilla with big eyes slippers (Black) M,Furry gorilla with big eyes slippers (Black) M,0.9969736568609833,False,0
+43,5b4345cc362209504f86b1d9,StockItem,1,3 kg Courier post bag (White) 300x190x95mm,3 kg Courier post bag (White) 300x190x95mm,0.9969736568609833,False,0
+43,9068461cbdf9e7ffa74c8253,StockItem,1,Ogr battery-powered slippers (Green) S,Ogre battery-powered slippers (Green) S,0.9958130659120971,False,0
+43,51f69adc436c2d5c49ec4e32,StockItem,1,32 mm Anti static bubble wrap (Blue) 20m,32 mm Anti static bubble wrap (Blue) 20m,0.9946182152191166,False,0
+43,94b6504cbd2ef968d9eac19f,StockItem,1,Bla and orange handle with care despatch tape 48mmx100m,Bla and orange handle with care despatch tape 48mmx100m,0.9946182152191166,False,0
+43,6100b70bf9cb5fa935e816f9,StockItem,1,IT joke mug - hardware: part of the computer that can be kicked (Black),IT joke mug - hardware: part of the computer that can be kicked (Black),0.9946182152191166,False,1
+43,1145562b9d9627e3c11a453d,StockItem,1,DBA joke mug - daaaaaa-ta (White),DBA joke mug - daaaaaa-ta (White),0.9946182152191166,False,0
+43,a1b68600814169ac44031327,StockItem,1,Developer joke mug - that's a hardware problem (Black),Developer joke mug - that's a hardware problem (Black),0.9946182152191166,False,1
+43,461fe88a20a36132e6941417,StockItem,1,10 mm Double sided bubble wrap 20m,10 mm Double sided bubble wrap 20m,0.9946182152191166,False,0
+43,8d98fd672397a18227e7a111,StockItem,1,DAB joke mug - two types of DBAs (White),DBA joke mug - two types of DBAs (White),0.9935050781535792,True,2
+43,2e1532d482eec597b28af30f,StockItem,1,Ride on big wheel monsetr truck (Black) 1/12 scale,Ride on big wheel monster truck (Black) 1/12 scale,0.9929513330009301,False,0
+43,f59b84468ac58ff2b00b30ca,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (White) XS","""Th Gu"" red shirt XML tag t-shirt (White) XS",0.9929316685982722,False,0
+43,dedc809928cf6cd4203238b8,StockItem,1,"""Th Gu"" red shirt XML tag t-shirt (Black) 3XS","""The Gu"" red shirt XML tag t-shirt (Black) 3XS",0.9929306226918357,False,0
+43,b4609942680a1a9e4add8688,StockItem,1,IT joke mug - hardware: part of the computer that can be kicke d(White),IT joke mug - hardware: part of the computer that can be kicked (White),0.9919734763021328,True,2
+43,0fb59652239a1f6032fe4d11,StockItem,1,Develpoer joke mug - when your hammer is C++ (White),Developer joke mug - when your hammer is C++ (White),0.9908085188682285,True,2
+43,07bb12c809b669317ea2fb6e,StockItem,1,20 mm Anti statci bubble wrap (Blue) 20m,20 mm Anti static bubble wrap (Blue) 20m,0.9877810494914285,False,0
+43,e1c9fe4845201e023ff81777,StockItem,1,Large sized bubblewrap roll 50m,Lar sized bubblewrap roll 50m,0.9850619774767531,False,0
+43,ed59f31bd04eb9b4f64ef70b,StockItem,1,Black and orange this way up despatch tape 48mmx100m,Bla and orange this way up despatch tape 48mmx100m,0.9846133275885848,False,0
+43,70ce56fe4885b1c558c7faac,Supplier,1,"Fabrikam, Inc.",Fab Inc.,0.984613160667826,False,0
+43,fd1bd4f74742566a35fddc1a,StockItem,1,RC toy sedan car with remote control (Yellow) 1/50 scale,RC toy sedan car with remote contrlo (Yellow) 1/50 scale,0.982483708558431,False,0
+43,0fe37cb58298d433c08c60ae,StockItem,1,RC toy sedan car with remote control (Red) 1/50 scale,RC toy sedan car with remote control (Red) 1/50 scael,0.9822995017064436,False,0
+43,1495b61bd179acebc5e3fea5,StockItem,1,USB food flash drive - hamburger,UBS food flash drive - hamburger,0.982237357002168,False,0
+43,16197a6814debd03c2fab6a9,StockItem,1,"""The Gu"" red shirt XML tag t-shirt (Black) XXS","""The Gu"" red shirtX ML tag t-shirt (Black) XXS",0.9772876081038117,False,0
+43,2075d5e5a735aa5242e2bc4b,StockItem,1,USB food flash drive - pizza slice,USB food flahs drive - pizza slice,0.9765731787142832,False,0
+43,abbb1e782f50697c99ea123f,StockItem,1,Superhero action jacket (Blue) 5XL,Superehro action jacket (Blue) 5XL,0.9755298295195359,False,0
+43,b56bd5703ac52f14a3b57edb,StockItem,1,RC big wheel monster truck with reomte control (Black) 1/50 scale,RC big wheel monster truck with remote control (Black) 1/50 scale,0.9747699146577604,False,0

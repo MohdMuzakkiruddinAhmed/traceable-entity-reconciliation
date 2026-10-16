@@ -1,0 +1,11 @@
+dataset,table,rows,columns,null_cells
+Olist,customers,99441,5,0
+Olist,orders,99441,8,4908
+Olist,items,112650,7,0
+Olist,payments,103886,5,0
+Olist,products,32951,9,2448
+Olist,sellers,3095,4,0
+Olist,reviews,99224,8,145903
+Olist,geolocation,1000163,6,0
+Olist,categories,71,2,0
+Olist,zips,19015,1,0

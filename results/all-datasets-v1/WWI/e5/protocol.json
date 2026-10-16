@@ -1,0 +1,14 @@
+{
+  "targets": [
+    1000,
+    10000,
+    100000
+  ],
+  "trials_per_target": 3,
+  "memory": "process RSS sampled every 50ms; allocator retention can influence absolute baseline",
+  "workload": "complete source-view entity/transaction/category units; grow through independent test groups, then namespace-disjoint replicas",
+  "positive_universe": "all cross-silo aliases of the same original entity, including cross-replica positives; no inferred copy IDs in features",
+  "query_control": "identical per-copy oracle identities for graph and SQL; answers and per-template latency verified",
+  "preparation": "separate graph adjacency preparation and SQL loading/indexing; one warm-up before five measured repeats",
+  "limits": "bounded output is by design; lower recall is reported; this is not subquadratic-computation or independent-enterprise evidence"
+}

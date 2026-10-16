@@ -1,0 +1,4 @@
+dataset,target,actual,matching_records,pairs,recall,seconds,rss_gib
+Olist,1000,1000,414,2309,0.966,0.57,0.32
+Olist,10000,10001,4308,47913,0.722,7.56,0.48
+Olist,100000,100001,43176,687264,0.397,109.13,2.91

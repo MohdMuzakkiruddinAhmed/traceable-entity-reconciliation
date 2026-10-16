@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "source_run": "initial-core-v3",
+  "checks": [
+    {
+      "dataset": "inputs",
+      "seed": "",
+      "check": "frozen_code_results_and_WWI_source_hashes",
+      "status": "passed",
+      "max_probability_difference": 0.0
+    },
+    {
+      "dataset": "WWI",
+      "seed": 17,
+      "check": "aliases_retraining_thresholds_probabilities_identity_and_six_queries",
+      "status": "passed",
+      "max_probability_difference": 0.0
+    },
+    {
+      "dataset": "WWI",
+      "seed": 29,
+      "check": "aliases_retraining_thresholds_probabilities_identity_and_six_queries",
+      "status": "passed",
+      "max_probability_difference": 0.0
+    },
+    {
+      "dataset": "WWI",
+      "seed": 43,
+      "check": "aliases_retraining_thresholds_probabilities_identity_and_six_queries",
+      "status": "passed",
+      "max_probability_difference": 0.0
+    },
+    {
+      "dataset": "WDC",
+      "seed": "",
+      "check": "attribute_retraining_test_probabilities_and_thresholds",
+      "status": "passed",
+      "max_probability_difference": 0.0
+    }
+  ],
+  "environment": {
+    "timestamp_utc": "2026-10-12T01:07:01.346630+00:00",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "logical_cpus": 24,
+    "ram_bytes": 68137205760,
+    "backend": "NetworkX MultiDiGraph / indexed SQLite in-memory",
+    "packages": {
+      "numpy": "2.4.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.8.0",
+      "networkx": "3.6.1",
+      "rapidfuzz": "3.14.3",
+      "psutil": "7.2.2"
+    }
+  },
+  "executable": "<workspace>\\.venv-replication\\Scripts\\python.exe",
+  "script_sha256": "37dd6f4b5c57aeb6c6086ab82ffd6cecab61634759aa95d41bebe741142d0330",
+  "requirements_sha256": "b23b2f782aa38aa8755856ecded2b6984b346f2d74b31e2d52ad3b3ec3540386",
+  "duration_seconds": 39.49666490009986,
+  "scope": "all three WWI primary seeds, identity/query replay and WDC attribute refit; no retuning or E5 timing comparison"
+}

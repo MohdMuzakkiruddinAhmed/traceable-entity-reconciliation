@@ -1,0 +1,40 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\definecolor{c1}{HTML}{0072B2}
+\definecolor{c2}{HTML}{009E73}
+\definecolor{c3}{HTML}{D55E00}
+\definecolor{c4}{HTML}{CC79A7}
+\definecolor{c5}{HTML}{333333}
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.45cm},
+width=8.25cm,height=5.15cm,xmode=log,xmin=20,xmax=150000,
+xtick={100,1000,10000,100000},
+xlabel={Matching records / offers},
+tick label style={font=\fontsize{8.5}{10}\selectfont},label style={font=\fontsize{9}{11}\selectfont},
+axis line style={black!65},tick style={black!60},grid=major,grid style={black!10},
+legend style={at={(1.1,1.10)},anchor=south,legend columns=5,draw=none,font=\fontsize{9}{11}\selectfont,/tikz/every even column/.append style={column sep=7pt}}]
+\nextgroupplot[ymode=log,ymin=100,ymax=3000000,ytick={100,1000,10000,100000,1000000},ylabel={Emitted candidate pairs}]
+\addplot+[color=c1,mark options={draw=c1,fill=c1},mark=*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=pairs,col sep=comma]{data/scale_WWI.csv};
+\addlegendentry{WWI}
+\addplot+[color=c2,mark options={draw=c2,fill=c2},mark=square*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=pairs,col sep=comma]{data/scale_Olist.csv};
+\addlegendentry{Olist}
+\addplot+[color=c3,mark options={draw=c3,fill=c3},mark=triangle*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=pairs,col sep=comma]{data/scale_DataCo.csv};
+\addlegendentry{DataCo}
+\addplot+[color=c4,mark options={draw=c4,fill=c4},mark=diamond*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=pairs,col sep=comma]{data/scale_BPI2019.csv};
+\addlegendentry{BPI2019}
+\addplot+[color=c5,mark options={draw=c5,fill=c5},mark=pentagon*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=pairs,col sep=comma]{data/scale_WDC.csv};
+\addlegendentry{WDC}
+\nextgroupplot[ymin=0,ymax=1.045,ytick={0,.2,.4,.6,.8,1},ylabel={Blocking recall}]
+\addplot+[color=c1,mark options={draw=c1,fill=c1},mark=*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=recall,col sep=comma]{data/scale_WWI.csv};
+\addplot+[color=c2,mark options={draw=c2,fill=c2},mark=square*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=recall,col sep=comma]{data/scale_Olist.csv};
+\addplot+[color=c3,mark options={draw=c3,fill=c3},mark=triangle*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=recall,col sep=comma]{data/scale_DataCo.csv};
+\addplot+[color=c4,mark options={draw=c4,fill=c4},mark=diamond*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=recall,col sep=comma]{data/scale_BPI2019.csv};
+\addplot+[color=c5,mark options={draw=c5,fill=c5},mark=pentagon*,mark size=2.2pt,line width=.85pt] table[x=matching_records,y=recall,col sep=comma]{data/scale_WDC.csv};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

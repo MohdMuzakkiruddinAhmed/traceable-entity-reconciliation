@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-12T00:48:17.125896+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cpus": 24,
+  "ram_bytes": 68137205760,
+  "backend": "NetworkX MultiDiGraph / indexed SQLite in-memory",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "networkx": "3.6.1",
+    "rapidfuzz": "3.14.3",
+    "psutil": "7.2.2"
+  }
+}

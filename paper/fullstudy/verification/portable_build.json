@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "original_data_present": false,
+  "models_refitted": false,
+  "checks": [
+    {
+      "file": "kg-erp-detailed-research-paper.pdf",
+      "pages": 22,
+      "text_exact": true
+    },
+    {
+      "file": "kg-erp-ieee-submission-draft.pdf",
+      "pages": 8,
+      "text_exact": true
+    },
+    {
+      "file": "kg-erp-technical-supplement.pdf",
+      "pages": 18,
+      "text_exact": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "WWI",
+    "seed": 17,
+    "candidate_id": "12630161489751553ea9f3d2",
+    "true_same_entity": true,
+    "left_name": "IT joke mug - hardware: part of the computer that can be kicked (White)",
+    "right_name": "IT joke mug - hardware: part of the computer that can be kicked (White)",
+    "entity_type": "StockItem",
+    "score": 0.9782380102401563,
+    "accept_threshold": 0.8973485382977836,
+    "context_used": true,
+    "independent_anchor_count": 3,
+    "weighted_support": 1.25,
+    "left_origin": "Warehouse.StockItems",
+    "right_origin": "Warehouse.StockItems",
+    "model_sha256": "ca50c4d81cc558bb34376eb6bb1908291a570a34d2191d6caa2092a148be28e4",
+    "decision_trigger": "same_type_one_to_one_frozen_development_policy"
+  },
+  {
+    "dataset": "WWI",
+    "seed": 29,
+    "candidate_id": "f7de6934d1adf6423d7ecbcd",
+    "true_same_entity": false,
+    "left_name": "\"The Gu\" red shirt XML tag t-shirt (Black) S",
+    "right_name": "\"The Gu\" red shirt XML tag t-shirt (Black) XXS",
+    "entity_type": "StockItem",
+    "score": 0.9928611700952061,
+    "accept_threshold": 0.9180691208095029,
+    "context_used": true,
+    "independent_anchor_count": 4,
+    "weighted_support": 2.0,
+    "left_origin": "Warehouse.StockItems",
+    "right_origin": "Warehouse.StockItems",
+    "model_sha256": "7bcab1eafe7da90aa92d74e869803b2faa586373e0ebf6978134b4b6e7c221a9",
+    "decision_trigger": "same_type_one_to_one_frozen_development_policy"
+  }
+]

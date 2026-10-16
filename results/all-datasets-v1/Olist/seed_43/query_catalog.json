@@ -1,0 +1,26 @@
+{
+  "dataset": "Olist",
+  "answers": "tuples of independently remapped source UIDs; monetary sums in integer cent-rounded source units",
+  "source_local_controls": [
+    "Q2",
+    "Q4"
+  ],
+  "identity_sensitive": [
+    "Q1",
+    "Q3",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "amount_semantics": "source order-line amount",
+  "Q1": "matched source entities sharing an observed transaction category",
+  "Q2": "local positive-value transactions",
+  "Q3": "source-B amount/count attributed to a reconciled source-A entity",
+  "Q4": "local typed entity/transaction/category paths",
+  "Q5": "positive-value source-B transactions linked to source-A entities",
+  "Q6": "cross-source identity pairs",
+  "Q7": "source-B amounts/counts by visible category attributed to source A",
+  "Q8": "source-table lineage for reconciled transaction paths",
+  "scope": "same sampled independent transaction histories as matching; full raw source fidelity is separate E1"
+}

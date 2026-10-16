@@ -1,0 +1,19 @@
+{
+  "training_seconds": 53.03506470000002,
+  "matching_test_records": 600,
+  "candidate_pairs": 9016,
+  "true_pairs": 300,
+  "common_blocking_recall": 0.8866666666666667,
+  "retained_true_pairs_bounded": 266,
+  "bounded": {
+    "candidate_count": 9016,
+    "source_records": 600,
+    "left_records": 300,
+    "per_left_limit": 32,
+    "cardinality_bound": 9600,
+    "max_full_posting": 119,
+    "postings_cap": 256,
+    "max_pool_bound": 3072,
+    "cardinality_bound_respected": true
+  }
+}

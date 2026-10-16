@@ -1,0 +1,7 @@
+dataset,table,rows,columns,null_cells
+DataCo,customers,20652,7,8
+DataCo,orders,65752,6,0
+DataCo,products,118,4,0
+DataCo,categories,51,3,0
+DataCo,departments,11,2,0
+DataCo,items,180519,54,336209

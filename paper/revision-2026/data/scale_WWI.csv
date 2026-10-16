@@ -1,0 +1,4 @@
+dataset,target,actual,matching_records,pairs,recall,seconds,rss_gib
+WWI,1000,1021,36,132,1,0.25,0.32
+WWI,10000,10722,96,356,1,1.87,0.37
+WWI,100000,100729,974,3896,0.705,24.46,0.7

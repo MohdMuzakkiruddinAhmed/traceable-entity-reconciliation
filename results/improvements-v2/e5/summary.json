@@ -1,0 +1,13 @@
+{
+  "candidate_growth_exponents": {
+    "original": 1.9999999999999993,
+    "bounded": 1.0406637263508705
+  },
+  "selected_k": 8,
+  "claim_limit": "bounded output cardinality is enforced by design, not proof of subquadratic total computation or unchanged recall",
+  "memory_limit": "resident snapshots reported; original E5 remains the sampled peak-RSS reference",
+  "feature_time": "full_feature_seconds includes attributes, anchors and independently checked graph/SQL context",
+  "cache": "one explicit warm-up; preparation separated from six-query batch and per-template timing",
+  "replica_positive_universe": "all cross-silo aliases with the same original canonical group, including cross-replica positives",
+  "independent_population_unchanged": true
+}

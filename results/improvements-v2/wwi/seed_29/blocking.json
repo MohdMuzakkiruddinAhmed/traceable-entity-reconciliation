@@ -1,0 +1,14 @@
+{
+  "candidate_count": 350,
+  "source_records": 98,
+  "left_records": 49,
+  "per_left_limit": 8,
+  "cardinality_bound": 392,
+  "max_full_posting": 35,
+  "postings_cap": 64,
+  "max_pool_bound": 768,
+  "cardinality_bound_respected": true,
+  "blocking_recall": 1.0,
+  "missed_true_pairs": 0,
+  "denominator_true_pairs": 49
+}

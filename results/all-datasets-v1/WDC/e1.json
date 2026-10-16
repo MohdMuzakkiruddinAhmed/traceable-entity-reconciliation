@@ -1,0 +1,13 @@
+{
+  "dataset": "WDC",
+  "official_split_files": 27,
+  "unique_offers": 10422,
+  "unique_labelled_product_groups": 1600,
+  "pair_observations": 155957,
+  "source_lineage": "archive/member/decompressed SHA-256 and official offer IDs",
+  "pair_uid_uniqueness_verified": true,
+  "schema_and_count_checks_passed": true,
+  "gold_cluster_ids_excluded_from_features": true,
+  "graph_context_and_ERP_query_scope": "not applicable; benchmark offers/pairs have no ERP transaction/FK graph",
+  "cross_split_overlaps": "reported separately for all 27 cells; overlapping official offer rows never silently removed"
+}

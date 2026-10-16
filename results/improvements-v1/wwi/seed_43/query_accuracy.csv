@@ -1,0 +1,7 @@
+seed,query,expected_answers,actual_answers,tp,precision,recall,f1,SQL_KG_equivalent
+43,Q1,24,23,23,1.0,0.9583333333333334,0.9787234042553191,True
+43,Q2,9,9,9,1.0,1.0,1.0,True
+43,Q3,2,2,2,1.0,1.0,1.0,True
+43,Q4,45,45,45,1.0,1.0,1.0,True
+43,Q5,1248,1248,1248,1.0,1.0,1.0,True
+43,Q6,3,3,3,1.0,1.0,1.0,True

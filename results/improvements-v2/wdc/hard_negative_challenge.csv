@@ -1,0 +1,2 @@
+model,n_pairs,positives,prevalence,tp,fp,fn,tn,precision,recall,f1,average_precision
+AttrPlus,3500,500,0.14285714285714285,328,444,172,2556,0.42487046632124353,0.656,0.5157232704402516,0.5003455469614029

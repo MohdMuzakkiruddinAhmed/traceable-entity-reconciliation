@@ -1,0 +1,488 @@
+[
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "15396241",
+    "attribute_and_cluster_sha256": "e52cd3665cf73f43c1c8b3c0a67cdea7314b63f07a74856b7f6eefeaaddfca6f",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "29412015",
+    "attribute_and_cluster_sha256": "bc96a4bbfc7aa3d5ece5fdfd8854d76ce02317f5685da68d5f8b080a5e1d8d69",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10229338",
+    "attribute_and_cluster_sha256": "913652b3b942487de4c3051881d9a0dc5ae5d1999644edf9f29c508b3fd5837b",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11685383",
+    "attribute_and_cluster_sha256": "cb5780ba117ad1dc008c7b37ef0fc2cb7c2c29626147cbbb95ef60dd181760c8",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11223281",
+    "attribute_and_cluster_sha256": "78dc6ad144e394df8e2815b386a738ea916fe3385ea186cfe0f7ed2f2f2445e9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "12513334",
+    "attribute_and_cluster_sha256": "6fc9181fc6b0e74901f8225abc3e7c337c57fc809009d81d183f9c6f6a59cb37",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "15396241",
+    "attribute_and_cluster_sha256": "e52cd3665cf73f43c1c8b3c0a67cdea7314b63f07a74856b7f6eefeaaddfca6f",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "29412015",
+    "attribute_and_cluster_sha256": "bc96a4bbfc7aa3d5ece5fdfd8854d76ce02317f5685da68d5f8b080a5e1d8d69",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10229338",
+    "attribute_and_cluster_sha256": "913652b3b942487de4c3051881d9a0dc5ae5d1999644edf9f29c508b3fd5837b",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11685383",
+    "attribute_and_cluster_sha256": "cb5780ba117ad1dc008c7b37ef0fc2cb7c2c29626147cbbb95ef60dd181760c8",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11223281",
+    "attribute_and_cluster_sha256": "78dc6ad144e394df8e2815b386a738ea916fe3385ea186cfe0f7ed2f2f2445e9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "12513334",
+    "attribute_and_cluster_sha256": "6fc9181fc6b0e74901f8225abc3e7c337c57fc809009d81d183f9c6f6a59cb37",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "15396241",
+    "attribute_and_cluster_sha256": "e52cd3665cf73f43c1c8b3c0a67cdea7314b63f07a74856b7f6eefeaaddfca6f",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "29412015",
+    "attribute_and_cluster_sha256": "bc96a4bbfc7aa3d5ece5fdfd8854d76ce02317f5685da68d5f8b080a5e1d8d69",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10229338",
+    "attribute_and_cluster_sha256": "913652b3b942487de4c3051881d9a0dc5ae5d1999644edf9f29c508b3fd5837b",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10402000",
+    "attribute_and_cluster_sha256": "5b51839b49b6ac89f1dd8556f41c021fdbb68d0c1a328ff0f09c8e25f472141e",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11223281",
+    "attribute_and_cluster_sha256": "78dc6ad144e394df8e2815b386a738ea916fe3385ea186cfe0f7ed2f2f2445e9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 20,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "12513334",
+    "attribute_and_cluster_sha256": "6fc9181fc6b0e74901f8225abc3e7c337c57fc809009d81d183f9c6f6a59cb37",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "19015384",
+    "attribute_and_cluster_sha256": "a21ea0b85564dac044c460b5aee4c2e55deb51afcd791c5e02f8352f1b40d276",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "28830600",
+    "attribute_and_cluster_sha256": "3832da659a3276d4f391cc09c65a1dd29a1642de1ecb84baa6049136150cd8d9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11293261",
+    "attribute_and_cluster_sha256": "83692c4440fad04e42762721049a1cf5b9aab50976ba93a028bd8f797237eade",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "12541827",
+    "attribute_and_cluster_sha256": "c45a15cfbfada56c11adfce4745811b16840407ad5cf46bac15a1a428c8569ef",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10032858",
+    "attribute_and_cluster_sha256": "fe4fcb4cc4749de4be16406c0ca60690a73d617530c48537dd68d9c2cd18cc52",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "19015384",
+    "attribute_and_cluster_sha256": "a21ea0b85564dac044c460b5aee4c2e55deb51afcd791c5e02f8352f1b40d276",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "28830600",
+    "attribute_and_cluster_sha256": "3832da659a3276d4f391cc09c65a1dd29a1642de1ecb84baa6049136150cd8d9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11293261",
+    "attribute_and_cluster_sha256": "83692c4440fad04e42762721049a1cf5b9aab50976ba93a028bd8f797237eade",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "12541827",
+    "attribute_and_cluster_sha256": "c45a15cfbfada56c11adfce4745811b16840407ad5cf46bac15a1a428c8569ef",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10032858",
+    "attribute_and_cluster_sha256": "fe4fcb4cc4749de4be16406c0ca60690a73d617530c48537dd68d9c2cd18cc52",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "19015384",
+    "attribute_and_cluster_sha256": "a21ea0b85564dac044c460b5aee4c2e55deb51afcd791c5e02f8352f1b40d276",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "28830600",
+    "attribute_and_cluster_sha256": "3832da659a3276d4f391cc09c65a1dd29a1642de1ecb84baa6049136150cd8d9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10519224",
+    "attribute_and_cluster_sha256": "e75f56558708931395acb63b85e38541c6b6d59835e3d0a4fd8718509581c4c1",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10737119",
+    "attribute_and_cluster_sha256": "0c699e0e67b0d6efe31305042a0e2f5d4123a6687d0cd8ec606737c5492fd064",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10032858",
+    "attribute_and_cluster_sha256": "fe4fcb4cc4749de4be16406c0ca60690a73d617530c48537dd68d9c2cd18cc52",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 50,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "40482961",
+    "attribute_and_cluster_sha256": "68831efb9e32b87474176ba058e8a2c8e74ba96072a92dccdf7dd7359e84d253",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "5700486",
+    "attribute_and_cluster_sha256": "06e4a9fea366d7fb60f24d39a34c12f458ee4d03d7a3315eb4486e6bc3d589da",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "12127235",
+    "attribute_and_cluster_sha256": "594642636828e4529f4fe4bbec8dcdf8792227aa18ec07aadc13988528bd47e9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "12650660",
+    "attribute_and_cluster_sha256": "afda80d0818d6afb4a33f6a95912449bdf893190db7f380e08d015af60dab024",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "small",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11172253",
+    "attribute_and_cluster_sha256": "0754d45db5d38c0aa5208477b876fbabb823f738a4f950eb28c7290d9a9cbcbf",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "40482961",
+    "attribute_and_cluster_sha256": "68831efb9e32b87474176ba058e8a2c8e74ba96072a92dccdf7dd7359e84d253",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "5700486",
+    "attribute_and_cluster_sha256": "06e4a9fea366d7fb60f24d39a34c12f458ee4d03d7a3315eb4486e6bc3d589da",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11846136",
+    "attribute_and_cluster_sha256": "9570a54cba83bcb060a1adecc73ae73851277933e823ef6e63b2051fdc8ff31c",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "12127235",
+    "attribute_and_cluster_sha256": "594642636828e4529f4fe4bbec8dcdf8792227aa18ec07aadc13988528bd47e9",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "medium",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11172253",
+    "attribute_and_cluster_sha256": "0754d45db5d38c0aa5208477b876fbabb823f738a4f950eb28c7290d9a9cbcbf",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "40482961",
+    "attribute_and_cluster_sha256": "68831efb9e32b87474176ba058e8a2c8e74ba96072a92dccdf7dd7359e84d253",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 0,
+    "split": "validation",
+    "publisher_offer_id": "5700486",
+    "attribute_and_cluster_sha256": "06e4a9fea366d7fb60f24d39a34c12f458ee4d03d7a3315eb4486e6bc3d589da",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "10548789",
+    "attribute_and_cluster_sha256": "7c1684916e93ca1fecc6b03107828df03cec6af80f436ef625f865ab15614ef3",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "train",
+    "publisher_offer_id": "11102231",
+    "attribute_and_cluster_sha256": "074a275cb9e267b7df790195996ee1103ae86d7594fcf01153da050a381cbebb",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "10133100",
+    "attribute_and_cluster_sha256": "a65600d989f1a779c56a6b1990ecbab3249ac270410a9533b1c77603cd3ba461",
+    "identical_attributes_and_cluster": true
+  },
+  {
+    "corner_cases": 80,
+    "development_size": "large",
+    "unseen_percent": 50,
+    "split": "validation",
+    "publisher_offer_id": "11172253",
+    "attribute_and_cluster_sha256": "0754d45db5d38c0aa5208477b876fbabb823f738a4f950eb28c7290d9a9cbcbf",
+    "identical_attributes_and_cluster": true
+  }
+]

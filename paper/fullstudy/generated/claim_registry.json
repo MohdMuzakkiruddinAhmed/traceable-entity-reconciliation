@@ -1,0 +1,870 @@
+{
+  "run": "all-datasets-v1",
+  "generator_sha256": "2dae4feadb76186024d075ea1873a967264f56ef9c4eb9dda4181536c2fcb5fc",
+  "claims": [
+    {
+      "id": "conditional_matching",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "Unweighted arithmetic mean of F1 over seeds 17,29,43, ambiguous candidate stratum; not pooled F1.",
+      "value": {
+        "rows": 13,
+        "columns": [
+          "model",
+          "WWI",
+          "Olist",
+          "DataCo",
+          "BPI2019"
+        ]
+      }
+    },
+    {
+      "id": "pipeline_matching",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "All candidate stratum. End-to-end F1 includes every true cross-silo pair in denominator; seed means.",
+      "value": {
+        "rows": 4,
+        "columns": [
+          "dataset",
+          "test_groups",
+          "candidate_min",
+          "candidate_max",
+          "blocking_recall",
+          "attribute_conditional_f1",
+          "graph_conditional_f1",
+          "attribute_end_to_end_f1",
+          "graph_end_to_end_f1",
+          "augmented_end_to_end_f1"
+        ]
+      }
+    },
+    {
+      "id": "paired_effects",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/context_effects.csv",
+          "sha256": "8d2b02a307a731723d8dddce81be34804a61aaa5eb056691286cf561f7a6200e"
+        }
+      ],
+      "aggregation": "Per-seed ambiguous F1 differences; 1000 paired endpoint-multiplicity group bootstrap replicates, percentile intervals copied without pooling.",
+      "value": {
+        "rows": 12,
+        "columns": [
+          "dataset",
+          "seed",
+          "contrast",
+          "delta_f1",
+          "ci_low",
+          "ci_high"
+        ]
+      }
+    },
+    {
+      "id": "identity_decisions",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/identity_summary.csv",
+          "sha256": "80d90482b4a27ea581c4320520b81f24802f569073656ce6b53053d677f5b75a"
+        }
+      ],
+      "aggregation": "Sum of post-one-to-one accepted links and false merges over three seed trials; trials share source populations.",
+      "value": {
+        "rows": 4,
+        "columns": [
+          "dataset",
+          "accepted_links",
+          "false_merges",
+          "true_accepted"
+        ]
+      }
+    },
+    {
+      "id": "source_profiles",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/e1.json",
+          "sha256": "c65714f53c26904beeb517358afa6673bd6e8adf195a773f447cd8f638759ec8"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/e1.json",
+          "sha256": "6f9da5acbaec43469c1da2f57e30001ef38f867fab76df081a49df74f9ee9b05"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/e1.json",
+          "sha256": "d9fb13c59bfaf9cfa2b3d662be471000282e3bb11d42301ceec2f66fce8cecb5"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/e1.json",
+          "sha256": "040a7e853b402129a782cbaad8dfed8934fdb67758a647a391a5ebf046e1b31f"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/view_manifest.json",
+          "sha256": "93b4489d1d665abbc3f83c2210f7d5fd685d71b13d44ea81f99c3ffe9cbe7219"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_17/view_manifest.json",
+          "sha256": "3ec90a6dc5ceb5ca6f04a94dccec27640018ccff9a6b69a1cb31b1176e02b7d9"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_17/view_manifest.json",
+          "sha256": "79067f725714fb97d7de8012a779207fcc4ea6c4ca218f5c36252077ba0ece6a"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_17/view_manifest.json",
+          "sha256": "de996969da3ad8f0a55c2ced8fac2be59b1f0f9004da364a6df8f2b17b4bbfb5"
+        }
+      ],
+      "aggregation": "Native source graph counts and controlled matching population are different scopes. WWI E1 reuses the verified initial-core source import.",
+      "value": {
+        "rows": 4,
+        "columns": [
+          "dataset",
+          "nodes",
+          "edges",
+          "eligible_groups",
+          "selected_groups",
+          "train",
+          "validation",
+          "test"
+        ]
+      }
+    },
+    {
+      "id": "wdc_all_cells",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/matching.csv",
+          "sha256": "53335c4734171305cf8a1b3a33a3a49f1c1ce5e364fcb62f471fbd40d9460cc6"
+        },
+        {
+          "path": "results/all-datasets-v1/WDC/split_integrity.csv",
+          "sha256": "308bd5245317beadf1a201af5e9f00a1530da1367a23b075ddd8bad109907400"
+        }
+      ],
+      "aggregation": "Every official configuration retained. Three-seed F1 means; train-test and validation-test overlaps are separately reported.",
+      "value": {
+        "rows": 27,
+        "columns": [
+          "corner_cases",
+          "development_size",
+          "unseen_percent",
+          "train_pairs",
+          "validation_pairs",
+          "test_pairs",
+          "train_test_offer_overlap",
+          "validation_test_offer_overlap",
+          "offer_disjoint_test_pairs",
+          "train_validation_offer_overlap",
+          "train_decompressed_sha256",
+          "validation_decompressed_sha256",
+          "test_decompressed_sha256",
+          "all_official_pairs_retained",
+          "B0Exact",
+          "B1Fuzzy",
+          "B2Attributes",
+          "B2EmbeddingAugmented",
+          "B3Embedding",
+          "disjoint_B0Exact",
+          "disjoint_B1Fuzzy",
+          "disjoint_B2Attributes",
+          "disjoint_B2EmbeddingAugmented",
+          "disjoint_B3Embedding"
+        ]
+      }
+    },
+    {
+      "id": "wdc_fully_unseen",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/matching.csv",
+          "sha256": "53335c4734171305cf8a1b3a33a3a49f1c1ce5e364fcb62f471fbd40d9460cc6"
+        }
+      ],
+      "aggregation": "Mean over nine fully unseen hardness/size cells and three training seeds. Sizes reuse test pools; these are correlated descriptive observations.",
+      "value": {
+        "rows": 5,
+        "columns": [
+          "model",
+          "f1"
+        ]
+      }
+    },
+    {
+      "id": "query_controls_all",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/query_accuracy.csv",
+          "sha256": "093351b4bd18efa54103798e3ddeebd4fd3ba801ba78d042f45bac502417f538"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_29/query_accuracy.csv",
+          "sha256": "85b9fce5fbb71df2f2744a3d00a2ac08b31c4d42ec5711df7bc53d8d8f33a870"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_43/query_accuracy.csv",
+          "sha256": "1fd23bf844aaacd4ddefc2a6d65e1eb77006351142b0e55db038a8181bb79520"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_17/query_accuracy.csv",
+          "sha256": "2d76f97564efe25a6971dd16508ee99a14a1658f5053a0987a111d5fb1a3a50b"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_29/query_accuracy.csv",
+          "sha256": "6c90d9efba7702531ce023c3d23ed5d9be6a83d156e6c04322e303235041ab2e"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_43/query_accuracy.csv",
+          "sha256": "f2ae9aca809be693d0baabeb07d1b2d605039e32d5f369cc44eaa663365c6078"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_17/query_accuracy.csv",
+          "sha256": "f1f6f6a47f07fd9e50ca730993b3eefa622bf1744c6c5fcaf50ffdbd8fb10a34"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_29/query_accuracy.csv",
+          "sha256": "a53874102ee8dd97f838b88c80f487385d4b42c91f542db37178be524c856122"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_43/query_accuracy.csv",
+          "sha256": "cc60e23d688bd990ad1b46bdabaa668e2724c4954f876df4582c88dcb151650c"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_17/query_accuracy.csv",
+          "sha256": "40002f410ff1e580b038501c7e30f01d9d007df8b5f0de8179f3c0d8b0727487"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_29/query_accuracy.csv",
+          "sha256": "a0516c6ae3cb320d1f3eb3d79053e30b6becb80446cb47db8c56cc7c6a48dad1"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_43/query_accuracy.csv",
+          "sha256": "7d5dd56ffb7fac19ec85c3f3c1848f0b07b07301c3e7d57663b1bd81593e32d6"
+        }
+      ],
+      "aggregation": "All three identity controls, eight dataset-adapted tasks and three seeds. SQL/KG exactness is equality conditional on the chosen identity map, not oracle accuracy.",
+      "value": {
+        "rows": 288,
+        "columns": [
+          "dataset",
+          "seed",
+          "identity",
+          "query",
+          "SQL_KG_exact",
+          "expected_answers",
+          "actual_answers",
+          "tp",
+          "precision",
+          "recall",
+          "f1"
+        ]
+      }
+    },
+    {
+      "id": "native_wwi_queries",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/native_query_accuracy.csv",
+          "sha256": "b9e76cd8ca702ab048e63e91f3f8b7796985bcd8f42cd233ef023aacb5096b70"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_29/native_query_accuracy.csv",
+          "sha256": "2509871da722c059a12fdea16dc5b48e80314362cfbc7ca84b392e8e19f7ae39"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_43/native_query_accuracy.csv",
+          "sha256": "2736d81c0e40ad1ef0e67ff899e99222536bd1efb5e8d96fe90fa1eb8008bbef"
+        }
+      ],
+      "aggregation": "Preserved native WWI tasks Q1-Q8 are distinct from the generic adapted query templates.",
+      "value": {
+        "rows": 72,
+        "columns": [
+          "seed",
+          "identity",
+          "query",
+          "SQL_KG_exact",
+          "expected_answers",
+          "actual_answers",
+          "tp",
+          "precision",
+          "recall",
+          "f1"
+        ]
+      }
+    },
+    {
+      "id": "calibration",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/calibration.csv",
+          "sha256": "919a00c17c863bbca4d6caa2966b1f9621a0981799fb452e7166bf6ef4ebc74e"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_29/calibration.csv",
+          "sha256": "7f5efb3753a99d8f3f94211208ba31561126ed6d891681bad1959d9a3b316c5a"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_43/calibration.csv",
+          "sha256": "860206ccdd0cd168fd7e295ece640b48f3de5fc9f0e29ec98a5d01ad349fe345"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_17/calibration.csv",
+          "sha256": "6643a9d522a0de80f7cb2d5961fe4491adf4ae50be41aaed36a8947e99c233c9"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_29/calibration.csv",
+          "sha256": "137e46f5cf1e2248718534fb4817312ec8aa93516f56a81ad2b22869a3e38962"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/seed_43/calibration.csv",
+          "sha256": "5e08dcd49340c10819adbea67c965c6a114c63dcea038f51426a9ae161879bf7"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_17/calibration.csv",
+          "sha256": "191182dc28af38a531786fedb7f6d2be9e2a05e2ea2ee692a87394430bbe2d54"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_29/calibration.csv",
+          "sha256": "773e020ef660f7dff5e3671829434f3732fcd2adaca049d743e5f36cf82ca98f"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/seed_43/calibration.csv",
+          "sha256": "a5aa3ae185b88a5b8191fe1e2dea37713076ad822358de29222a0cd85ef26008"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_17/calibration.csv",
+          "sha256": "3e6e90687ddba5ff2d5e8bd194b39145a758f0ec142d5389f697629c7686c0c4"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_29/calibration.csv",
+          "sha256": "5eca6be21e5a222d56a6a15091443293155d9ede939bd2422f4e76263c9e2744"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/seed_43/calibration.csv",
+          "sha256": "34e73f81b3d42ac040448f390e400f54a67ab9ea67269adc0cd23e94e9c9b75c"
+        }
+      ],
+      "aggregation": "Means of raw and sigmoid-calibrated all-candidate Brier/log-loss/10 equal-width-bin ECE over three seeds; no claim of universal improvement.",
+      "value": {
+        "rows": 16,
+        "columns": [
+          "dataset",
+          "model",
+          "mode",
+          "brier",
+          "log_loss",
+          "ece"
+        ]
+      }
+    },
+    {
+      "id": "robustness_means",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/robustness_all_graph_datasets.csv",
+          "sha256": "195963761b22a79272771994206dff82cd90b7fb553746a0d26ba3d0991365d5"
+        }
+      ],
+      "aggregation": "Mean metrics over seeds on frozen clean candidate pairs under each perturbation. Accepted error rates are pre-one-to-one pair rates; clean identity audit is postconstraint.",
+      "value": {
+        "rows": 624,
+        "columns": [
+          "dataset",
+          "scenario",
+          "model",
+          "f1",
+          "end_to_end_f1",
+          "coverage",
+          "selective_risk",
+          "accepted_count",
+          "accepted_error_rate"
+        ]
+      }
+    },
+    {
+      "id": "scale_trials",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/scale_all_graph_datasets.csv",
+          "sha256": "83b89e73df273272bab5a664daff93f32c1d3dd236e92f16292504b43eaa6104"
+        },
+        {
+          "path": "results/all-datasets-v1/WDC/e5/scale_trials.csv",
+          "sha256": "b219d58c45035b94b0f9843d944546ca5fd878dd9b3d4c3b80c87137ab81ba43"
+        }
+      ],
+      "aggregation": "45 main full-offer/projected-graph trials. Graph nodes include transactions/categories; WDC target counts offers. No conversion between node counts and matching records.",
+      "value": {
+        "rows": 45,
+        "columns": [
+          "dataset",
+          "target",
+          "trial",
+          "actual_records",
+          "matching_records",
+          "candidate_count",
+          "blocking_recall",
+          "build_seconds",
+          "blocking_seconds",
+          "feature_seconds",
+          "all_scorers_seconds",
+          "total_seconds",
+          "sampled_peak_rss_bytes",
+          "rss_increment_bytes"
+        ]
+      }
+    },
+    {
+      "id": "scale_medians",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/scale_all_graph_datasets.csv",
+          "sha256": "83b89e73df273272bab5a664daff93f32c1d3dd236e92f16292504b43eaa6104"
+        },
+        {
+          "path": "results/all-datasets-v1/WDC/e5/scale_trials.csv",
+          "sha256": "b219d58c45035b94b0f9843d944546ca5fd878dd9b3d4c3b80c87137ab81ba43"
+        }
+      ],
+      "aggregation": "Per-dataset/target medians across three timing trials. Repeated data replicas are included in the full positive-pair universe.",
+      "value": {
+        "rows": 15,
+        "columns": [
+          "dataset",
+          "target",
+          "trial",
+          "actual_records",
+          "matching_records",
+          "candidate_count",
+          "blocking_recall",
+          "build_seconds",
+          "blocking_seconds",
+          "feature_seconds",
+          "all_scorers_seconds",
+          "total_seconds",
+          "sampled_peak_rss_bytes",
+          "rss_increment_bytes",
+          "peak_rss_gib"
+        ]
+      }
+    },
+    {
+      "id": "query_latencies",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/e5/query_latencies.csv",
+          "sha256": "2433edcfaa5b214a9ea76330157b0bb2793cd5f83d36bb13f1984e3b791ace92"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/e5/query_latencies.csv",
+          "sha256": "f5fd554cf8ccdf71752a109c8c4be78cac2de66b7484f20e0d8ea32ca8d67d85"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/e5/query_latencies.csv",
+          "sha256": "e8afcad3d3131f07b23bf0e695eb2be72d2374b08865e9b4f7f46701ffe2cd03"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/e5/query_latencies.csv",
+          "sha256": "bb5ffea3a83bc88c67596d2f16209dd5bfa7f34c78ed2022423064f424a418e5"
+        }
+      ],
+      "aggregation": "Eight templates plus batch, graph/SQL, three targets and trials. Each trial has one warmup and five timed repetitions, common oracle identity; setup separately timed.",
+      "value": {
+        "rows": 648,
+        "columns": [
+          "dataset",
+          "target_nodes",
+          "actual_nodes",
+          "trial",
+          "method",
+          "p50_ms",
+          "p95_ms",
+          "warm_repetitions",
+          "graph_prepare_seconds",
+          "sql_prepare_seconds",
+          "same_oracle_identity_map"
+        ]
+      }
+    },
+    {
+      "id": "large_query_batches",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/e5/query_latencies.csv",
+          "sha256": "2433edcfaa5b214a9ea76330157b0bb2793cd5f83d36bb13f1984e3b791ace92"
+        },
+        {
+          "path": "results/all-datasets-v1/Olist/e5/query_latencies.csv",
+          "sha256": "f5fd554cf8ccdf71752a109c8c4be78cac2de66b7484f20e0d8ea32ca8d67d85"
+        },
+        {
+          "path": "results/all-datasets-v1/DataCo/e5/query_latencies.csv",
+          "sha256": "e8afcad3d3131f07b23bf0e695eb2be72d2374b08865e9b4f7f46701ffe2cd03"
+        },
+        {
+          "path": "results/all-datasets-v1/BPI2019/e5/query_latencies.csv",
+          "sha256": "bb5ffea3a83bc88c67596d2f16209dd5bfa7f34c78ed2022423064f424a418e5"
+        }
+      ],
+      "aggregation": "Median of per-trial batch p50/p95 at 100k projected nodes; not a pooled latency percentile.",
+      "value": {
+        "rows": 8,
+        "columns": [
+          "dataset",
+          "method",
+          "p50_ms",
+          "p95_ms",
+          "graph_prepare_seconds",
+          "sql_prepare_seconds"
+        ]
+      }
+    },
+    {
+      "id": "scorer_trials",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/supplemental_e5/scorer_trials.csv",
+          "sha256": "1de065a0fd5b91f9b61d3f7aedcfdb75b346f7b6bee51a32b3510cb192311411"
+        }
+      ],
+      "aggregation": "Supplemental isolated costs: WDC scorer targets count input pair rows (tiled frozen feature matrix), graph scorer targets count projected nodes. Features excluded; no end-to-end overhead ratio.",
+      "value": {
+        "rows": 135,
+        "columns": [
+          "dataset",
+          "target",
+          "actual_nodes",
+          "candidate_count",
+          "model",
+          "trial",
+          "scoring_seconds"
+        ]
+      }
+    },
+    {
+      "id": "canonicalization_trials",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/supplemental_e5/canonicalization_trials.csv",
+          "sha256": "1b78bb1c5d35f9722b1adbab8357c42f29c4388518ff5bb6f73c8a4760e0e876"
+        }
+      ],
+      "aggregation": "Supplemental isolated costs: WDC scorer targets count input pair rows (tiled frozen feature matrix), graph scorer targets count projected nodes. Features excluded; no end-to-end overhead ratio.",
+      "value": {
+        "rows": 36,
+        "columns": [
+          "dataset",
+          "target",
+          "candidate_count",
+          "trial",
+          "canonicalization_seconds",
+          "accepted_links",
+          "false_merges"
+        ]
+      }
+    },
+    {
+      "id": "wdc_robustness_all_cells",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/robustness.csv",
+          "sha256": "c809968a7b8f79e1377082aba0c61636c07ff658346c9a32dccdb64b0cf2efdd"
+        }
+      ],
+      "aggregation": "All 2430 WDC attribute-only robustness rows, official frozen pairs. Overlapping cells remain descriptive.",
+      "value": {
+        "rows": 2430,
+        "columns": [
+          "corner_cases",
+          "development_size",
+          "unseen_percent",
+          "seed",
+          "scenario",
+          "model",
+          "same_official_pairs",
+          "n_pairs",
+          "positives",
+          "prevalence",
+          "tp",
+          "fp",
+          "fn",
+          "tn",
+          "precision",
+          "recall",
+          "f1",
+          "average_precision"
+        ]
+      }
+    },
+    {
+      "id": "example_12630161489751553ea9f3d2",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/decisions.json",
+          "sha256": "4ec20bef2959a4a23e5406d6c22c330fd9282fb1f59cc28a5db123a358ff50e5"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_17/predictions.json",
+          "sha256": "0f0c0d40b3ab20290ddd56b935b6707c498eaaa308f484f03f4fda14f90ec56f"
+        },
+        {
+          "path": "data/generated/seed_17/records.json",
+          "sha256": "d459c16d3b3c951905068a2f912a3d101b068ff6a6a41c978ed03673a4820f4c"
+        }
+      ],
+      "aggregation": "Post-hoc descriptive accepted true/false pair; evaluator label used only after scoring. Fictional WWI names, no original identity keys or raw truth exported.",
+      "value": null
+    },
+    {
+      "id": "example_f7de6934d1adf6423d7ecbcd",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WWI/seed_29/decisions.json",
+          "sha256": "73c3a6adc0137848c281a5804c83f4afb2155df4986a6ca229aa61790be909cd"
+        },
+        {
+          "path": "results/all-datasets-v1/WWI/seed_29/predictions.json",
+          "sha256": "9c10e7a6d47b2558bc43cd4315d9099ce53781eea7fe52230ea2d8da7ac5a541"
+        },
+        {
+          "path": "data/generated/seed_29/records.json",
+          "sha256": "306e945a1fbc19fa93df965adacfa567c69f058d6a774b6b519c9052d02c6e2a"
+        }
+      ],
+      "aggregation": "Post-hoc descriptive accepted true/false pair; evaluator label used only after scoring. Fictional WWI names, no original identity keys or raw truth exported.",
+      "value": null
+    },
+    {
+      "id": "FWwiAttr",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=WWI; stratum=ambiguous; model=B2Attributes; mean over three seeds",
+      "value": 0.7687539531941808
+    },
+    {
+      "id": "FWwiGraph",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=WWI; stratum=ambiguous; model=B5Graph; mean over three seeds",
+      "value": 0.7888421380707497
+    },
+    {
+      "id": "FWwiAug",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=WWI; stratum=ambiguous; model=B2EmbeddingAugmented; mean over three seeds",
+      "value": 0.7625922023182298
+    },
+    {
+      "id": "FOlistAttr",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=Olist; stratum=ambiguous; model=B2Attributes; mean over three seeds",
+      "value": 0.6918835401750627
+    },
+    {
+      "id": "FOlistGraph",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=Olist; stratum=ambiguous; model=B5Graph; mean over three seeds",
+      "value": 0.7842322597908381
+    },
+    {
+      "id": "FOlistAug",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=Olist; stratum=ambiguous; model=B2EmbeddingAugmented; mean over three seeds",
+      "value": 0.7414298695865083
+    },
+    {
+      "id": "FDataCoAttr",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=DataCo; stratum=ambiguous; model=B2Attributes; mean over three seeds",
+      "value": 0.6961604665144338
+    },
+    {
+      "id": "FDataCoGraph",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=DataCo; stratum=ambiguous; model=B5Graph; mean over three seeds",
+      "value": 0.6750341397998613
+    },
+    {
+      "id": "FDataCoAug",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=DataCo; stratum=ambiguous; model=B2EmbeddingAugmented; mean over three seeds",
+      "value": 0.6962366268082874
+    },
+    {
+      "id": "FBpiAttr",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=BPI2019; stratum=ambiguous; model=B2Attributes; mean over three seeds",
+      "value": 0.12416247566794554
+    },
+    {
+      "id": "FBpiGraph",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=BPI2019; stratum=ambiguous; model=B5Graph; mean over three seeds",
+      "value": 0.5734272129897846
+    },
+    {
+      "id": "FBpiAug",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/matching_all_graph_datasets.csv",
+          "sha256": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8"
+        }
+      ],
+      "aggregation": "dataset=BPI2019; stratum=ambiguous; model=B2EmbeddingAugmented; mean over three seeds",
+      "value": 0.14919862207251874
+    },
+    {
+      "id": "WdcAttr",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/matching.csv",
+          "sha256": "53335c4734171305cf8a1b3a33a3a49f1c1ce5e364fcb62f471fbd40d9460cc6"
+        }
+      ],
+      "aggregation": "unseen_percent=100; stratum=official_all; model=B2Attributes; mean over 9 cells x 3 seeds",
+      "value": 0.5368681589691071
+    },
+    {
+      "id": "WdcAug",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/matching.csv",
+          "sha256": "53335c4734171305cf8a1b3a33a3a49f1c1ce5e364fcb62f471fbd40d9460cc6"
+        }
+      ],
+      "aggregation": "unseen_percent=100; stratum=official_all; model=B2EmbeddingAugmented; mean over 9 cells x 3 seeds",
+      "value": 0.5583585303931814
+    },
+    {
+      "id": "WdcEmb",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/WDC/matching.csv",
+          "sha256": "53335c4734171305cf8a1b3a33a3a49f1c1ce5e364fcb62f471fbd40d9460cc6"
+        }
+      ],
+      "aggregation": "unseen_percent=100; stratum=official_all; model=B3Embedding; mean over 9 cells x 3 seeds",
+      "value": 0.39191820492421947
+    },
+    {
+      "id": "figure_context_effects",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/context_effects.csv",
+          "sha256": "8d2b02a307a731723d8dddce81be34804a61aaa5eb056691286cf561f7a6200e"
+        }
+      ],
+      "aggregation": "Three per-seed contrasts/endpoint-multiplicity percentile intervals per dataset; no pooled CI.",
+      "value": null
+    },
+    {
+      "id": "figure_blocking",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/scale_all_graph_datasets.csv",
+          "sha256": "83b89e73df273272bab5a664daff93f32c1d3dd236e92f16292504b43eaa6104"
+        },
+        {
+          "path": "results/all-datasets-v1/WDC/e5/scale_trials.csv",
+          "sha256": "b219d58c45035b94b0f9843d944546ca5fd878dd9b3d4c3b80c87137ab81ba43"
+        }
+      ],
+      "aggregation": "Median main trials by target; matching records on x-axis; output cap is not a computational complexity proof.",
+      "value": null
+    },
+    {
+      "id": "figure_attribute_stress",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/robustness_all_graph_datasets.csv",
+          "sha256": "195963761b22a79272771994206dff82cd90b7fb553746a0d26ba3d0991365d5"
+        }
+      ],
+      "aggregation": "Clean/30%/50% frozen-pair stress, three-seed means; candidate retrieval is not rerun under defects.",
+      "value": null
+    },
+    {
+      "id": "figure_architecture",
+      "sources": [
+        {
+          "path": "results/all-datasets-v1/config_snapshot.yaml",
+          "sha256": "a321fe593d6fff77f2a89d03df4406038e96a8869251fe9604cb0dd8e77b9b41"
+        }
+      ],
+      "aggregation": "Conceptual schematic of implemented stages; evaluator truth is used only in independent controls, never scoring.",
+      "value": null
+    }
+  ],
+  "interpretation_guards": [
+    "Exploratory, not preregistered; Olist adapter was test-context-informed before fitting.",
+    "BPI baseline has coarse modal history descriptors; no literal vendor names.",
+    "NoTransactions removes all transaction context in WWI, numerical/date/unit only in generic adapters.",
+    "UnitWeights uses frozen weighted estimator/policy; not a retrained ablation.",
+    "18 official WDC cells have train-test and/or validation-test offer overlap.",
+    "Candidate-cap output does not prove subquadratic computation.",
+    "Expanded verification is frozen replay, not fresh-environment retraining.",
+    "No human study; WDC ERP queries/context are not applicable."
+  ]
+}

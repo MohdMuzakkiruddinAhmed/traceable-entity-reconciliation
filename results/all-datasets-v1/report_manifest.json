@@ -1,0 +1,22 @@
+{
+  "run_id": "all-datasets-v1",
+  "generated_from_measured_artifacts": true,
+  "files_sha256": {
+    "blocking_tradeoffs.png": "73c3bd208bad482be6a0e01f4b800482c229836539fc2ecd5ca7c5e4ebe6619c",
+    "calibration_reliability.png": "870fc91f178020cfb144974acaf736ecb62a218ba0678bb853b78517659be03b",
+    "candidate_slopes.csv": "884b2f4ed4bd906319b18d543d26a895a3bdb5bae8fab58682d0f4a7cc1648c0",
+    "context_effects.csv": "8d2b02a307a731723d8dddce81be34804a61aaa5eb056691286cf561f7a6200e",
+    "experiment_coverage.csv": "35a511e931f02e2cfa0ebfb746b5bcfb51204fe0ba2edfb0e4716c0c2046195f",
+    "identity_summary.csv": "80d90482b4a27ea581c4320520b81f24802f569073656ce6b53053d677f5b75a",
+    "matching_all_graph_datasets.csv": "f6bc107a4fb2304bf8d75cc34a9ec15e1c145a5d709aa7db92d4e5f8987288b8",
+    "matching_comparison.png": "0d76eef906b6757497d448d3a9e03981c737940ee0f135e3b2b8c4cf9653d742",
+    "REPORT.md": "d7459d7c302de5c50971a5987277875a88d5fbfb0acb279f0254bafc36d118f3",
+    "robustness_all_graph_datasets.csv": "195963761b22a79272771994206dff82cd90b7fb553746a0d26ba3d0991365d5",
+    "robustness_curves.png": "dbbdf871dc0634a01a109f17cc3a621a3c51ee0f05725a688d54f4353a1464ad",
+    "scale_all_graph_datasets.csv": "83b89e73df273272bab5a664daff93f32c1d3dd236e92f16292504b43eaa6104",
+    "wdc_configurations.png": "e6d3eb97f52d29eb9dd16d085db5a2e903c2d4f5e590b8ed0928c86507936dad",
+    "wwi_entity_type_metrics.csv": "ec0b0a0e59072395dbcde2dc73d2befc55bb22fc7e09f514be89617131ec7c26"
+  },
+  "human_study_excluded": true,
+  "WDC_ERP_queries_not_applicable": true
+}
